@@ -1,0 +1,6651 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- =========================================================
+         BASIC DOCUMENT CONFIGURATION
+    ========================================================== -->
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        http-equiv="X-UA-Compatible"
+        content="IE=edge"
+    >
+
+    <!-- =========================================================
+         SEO
+    ========================================================== -->
+
+    <title>Shorya Jain — Portfolio</title>
+
+    <meta
+        name="description"
+        content="Shorya Jain — BCA student, freelancer, creator, designer and developer."
+    >
+
+    <meta
+        name="keywords"
+        content="Shorya Jain, BCA, portfolio, freelancer, video editor, graphic designer, web developer, cybersecurity, AI automation"
+    >
+
+    <meta
+        name="author"
+        content="Shorya Jain"
+    >
+
+    <meta
+        name="robots"
+        content="index, follow"
+    >
+
+    <!-- =========================================================
+         THEME / BROWSER
+    ========================================================== -->
+
+    <meta
+        name="theme-color"
+        content="#050505"
+    >
+
+    <meta
+        name="color-scheme"
+        content="dark"
+    >
+
+    <!-- =========================================================
+         OPEN GRAPH
+    ========================================================== -->
+
+    <meta
+        property="og:title"
+        content="Shorya Jain — Portfolio"
+    >
+
+    <meta
+        property="og:description"
+        content="BCA student, freelancer, creator, designer and developer."
+    >
+
+    <meta
+        property="og:type"
+        content="website"
+    >
+
+    <meta
+        property="og:image"
+        content=""
+    >
+
+    <!-- =========================================================
+         FAVICON
+    ========================================================== -->
+
+    <link
+        rel="icon"
+        href=""
+        type="image/png"
+    >
+
+    <!-- =========================================================
+         PRECONNECT / FONTS
+         We will finalize the fonts during CSS development.
+    ========================================================== -->
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <!-- =========================================================
+         MAIN STYLESHEET
+    ========================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+
+<body>
+
+    <!-- =========================================================
+         ACCESSIBILITY
+    ========================================================== -->
+
+    <a
+        href="#main-content"
+        class="skip-link"
+    >
+        Skip to main content
+    </a>
+
+
+    <!-- =========================================================
+         WEBSITE LOADER
+         JavaScript will control this later.
+    ========================================================== -->
+
+    <div
+        id="site-loader"
+        class="site-loader"
+        aria-hidden="true"
+    >
+
+        <div class="loader-inner">
+
+            <div class="loader-brand">
+                SJ
+            </div>
+
+            <div class="loader-line">
+
+                <span class="loader-progress"></span>
+
+            </div>
+
+            <p class="loader-text">
+                LOADING EXPERIENCE
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================================================
+         CURSOR SYSTEM
+         JavaScript + CSS will make this interactive later.
+    ========================================================== -->
+
+    <div
+        class="custom-cursor"
+        aria-hidden="true"
+    >
+
+        <div class="cursor-dot"></div>
+
+        <div class="cursor-outline"></div>
+
+    </div>
+
+
+    <!-- =========================================================
+         BACKGROUND LAYERS
+    ========================================================== -->
+
+    <div
+        class="background-system"
+        aria-hidden="true"
+    >
+
+        <div class="background-gradient"></div>
+
+        <div class="background-noise"></div>
+
+        <div class="background-grid"></div>
+
+        <div class="background-glow background-glow-one"></div>
+
+        <div class="background-glow background-glow-two"></div>
+
+    </div>
+
+
+    <!-- =========================================================
+         PAGE WRAPPER
+    ========================================================== -->
+
+    <div
+        id="website"
+        class="website"
+    >
+
+
+        <!-- =====================================================
+             GLOBAL HEADER
+        ====================================================== -->
+
+        <header
+            id="global-header"
+            class="global-header"
+        >
+
+            <!-- =================================================
+                 BRAND
+            ================================================== -->
+
+            <a
+                href="#hero"
+                class="brand"
+                aria-label="Go to homepage"
+            >
+
+                <span class="brand-symbol">
+                    SJ
+                </span>
+
+                <span class="brand-text">
+                    SHORYA JAIN
+                </span>
+
+            </a>
+
+
+            <!-- =================================================
+                 DESKTOP NAVIGATION
+            ================================================== -->
+
+            <nav
+                class="desktop-navigation"
+                aria-label="Primary navigation"
+            >
+
+                <a
+                    href="#hero"
+                    class="nav-link active"
+                    data-target="hero"
+                >
+                    HOME
+                </a>
+
+                <a
+                    href="#bca"
+                    class="nav-link"
+                    data-target="bca"
+                >
+                    BCA
+                </a>
+
+                <a
+                    href="#freelancing"
+                    class="nav-link"
+                    data-target="freelancing"
+                >
+                    FREELANCING
+                </a>
+
+                <a
+                    href="#projects"
+                    class="nav-link"
+                    data-target="projects"
+                >
+                    PROJECTS
+                </a>
+
+                <a
+                    href="#achievements"
+                    class="nav-link"
+                    data-target="achievements"
+                >
+                    ACHIEVEMENTS
+                </a>
+
+                <a
+                    href="#interests"
+                    class="nav-link"
+                    data-target="interests"
+                >
+                    INTERESTS
+                </a>
+
+                <a
+                    href="#contact"
+                    class="nav-link"
+                    data-target="contact"
+                >
+                    CONTACT
+                </a>
+
+            </nav>
+
+
+            <!-- =================================================
+                 HEADER ACTION
+            ================================================== -->
+
+            <button
+                type="button"
+                class="menu-trigger"
+                id="menu-trigger"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="mobile-menu"
+            >
+
+                <span class="menu-trigger-label">
+                    MENU
+                </span>
+
+                <span class="menu-trigger-icon">
+
+                    <span></span>
+                    <span></span>
+
+                </span>
+
+            </button>
+
+        </header>
+
+
+        <!-- =====================================================
+             MOBILE MENU
+        ====================================================== -->
+
+        <aside
+            id="mobile-menu"
+            class="mobile-menu"
+            aria-hidden="true"
+        >
+
+            <div class="mobile-menu-background"></div>
+
+
+            <div class="mobile-menu-content">
+
+                <div class="mobile-menu-top">
+
+                    <span class="mobile-menu-label">
+                        NAVIGATION
+                    </span>
+
+                    <button
+                        type="button"
+                        class="mobile-menu-close"
+                        id="mobile-menu-close"
+                        aria-label="Close navigation menu"
+                    >
+                        CLOSE
+                    </button>
+
+                </div>
+
+
+                <nav
+                    class="mobile-navigation"
+                    aria-label="Mobile navigation"
+                >
+
+                    <a
+                        href="#hero"
+                        class="mobile-nav-link"
+                        data-target="hero"
+                    >
+
+                        <span class="mobile-nav-number">
+                            00
+                        </span>
+
+                        <span class="mobile-nav-text">
+                            HOME
+                        </span>
+
+                    </a>
+
+
+                    <a
+                        href="#bca"
+                        class="mobile-nav-link"
+                        data-target="bca"
+                    >
+
+                        <span class="mobile-nav-number">
+                            01
+                        </span>
+
+                        <span class="mobile-nav-text">
+                            BCA
+                        </span>
+
+                    </a>
+
+
+                    <a
+                        href="#freelancing"
+                        class="mobile-nav-link"
+                        data-target="freelancing"
+                    >
+
+                        <span class="mobile-nav-number">
+                            02
+                        </span>
+
+                        <span class="mobile-nav-text">
+                            FREELANCING
+                        </span>
+
+                    </a>
+
+
+                    <a
+                        href="#projects"
+                        class="mobile-nav-link"
+                        data-target="projects"
+                    >
+
+                        <span class="mobile-nav-number">
+                            03
+                        </span>
+
+                        <span class="mobile-nav-text">
+                            PROJECTS
+                        </span>
+
+                    </a>
+
+
+                    <a
+                        href="#achievements"
+                        class="mobile-nav-link"
+                        data-target="achievements"
+                    >
+
+                        <span class="mobile-nav-number">
+                            04
+                        </span>
+
+                        <span class="mobile-nav-text">
+                            ACHIEVEMENTS
+                        </span>
+
+                    </a>
+
+
+                    <a
+                        href="#interests"
+                        class="mobile-nav-link"
+                        data-target="interests"
+                    >
+
+                        <span class="mobile-nav-number">
+                            05
+                        </span>
+
+                        <span class="mobile-nav-text">
+                            INTERESTS
+                        </span>
+
+                    </a>
+
+
+                    <a
+                        href="#contact"
+                        class="mobile-nav-link"
+                        data-target="contact"
+                    >
+
+                        <span class="mobile-nav-number">
+                            06
+                        </span>
+
+                        <span class="mobile-nav-text">
+                            CONTACT
+                        </span>
+
+                    </a>
+
+                </nav>
+
+
+                <div class="mobile-menu-footer">
+
+                    <span>
+                        SHORYA JAIN
+                    </span>
+
+                    <span>
+                        © 2026
+                    </span>
+
+                </div>
+
+            </div>
+
+        </aside>
+
+
+        <!-- =====================================================
+             MAIN CONTENT
+        ====================================================== -->
+
+        <main
+            id="main-content"
+            class="main-content"
+        >
+
+
+            <!-- =================================================
+                 SECTION 1 — HERO
+            ================================================== -->
+
+            <section
+                id="hero"
+                class="page-section hero-section"
+                data-section="hero"
+            >
+
+                <!-- =============================================
+                     HERO BACKGROUND
+                ============================================== -->
+
+                <div
+                    class="hero-background"
+                    aria-hidden="true"
+                >
+
+                    <div class="hero-orb hero-orb-primary"></div>
+
+                    <div class="hero-orb hero-orb-secondary"></div>
+
+                    <div class="hero-light-beam hero-light-beam-one"></div>
+
+                    <div class="hero-light-beam hero-light-beam-two"></div>
+
+                </div>
+
+
+                <!-- =============================================
+                     HERO TOP META
+                ============================================== -->
+
+                <div class="hero-meta">
+
+                    <div class="hero-meta-left">
+
+                        <span class="hero-meta-line"></span>
+
+                        <span class="hero-meta-text">
+                            PERSONAL PORTFOLIO
+                        </span>
+
+                    </div>
+
+
+                    <div class="hero-meta-right">
+
+                        <span>
+                            INDIA
+                        </span>
+
+                        <span class="hero-meta-separator">
+                            /
+                        </span>
+
+                        <span>
+                            2026
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =============================================
+                     HERO MAIN WRAPPER
+                ============================================== -->
+
+                <div class="hero-main">
+
+
+                    <!-- =========================================
+                         HERO INTRODUCTION
+                    ========================================== -->
+
+                    <div class="hero-copy">
+
+
+                        <div class="hero-eyebrow">
+
+                            <span class="eyebrow-line"></span>
+
+                            <span>
+                                HELLO, I'M
+                            </span>
+
+                        </div>
+
+
+                        <h1
+                            class="hero-title"
+                            aria-label="Shorya Jain"
+                        >
+
+                            <span
+                                class="hero-title-line"
+                                data-text="SHORYA"
+                            >
+                                SHORYA
+                            </span>
+
+                            <span
+                                class="hero-title-line hero-title-line-accent"
+                                data-text="JAIN"
+                            >
+                                JAIN
+                            </span>
+
+                        </h1>
+
+
+                        <div class="hero-role-wrapper">
+
+                            <span class="hero-role-prefix">
+                                I AM A
+                            </span>
+
+                            <span class="hero-role">
+                                BCA STUDENT
+                            </span>
+
+                        </div>
+
+
+                        <p class="hero-description">
+
+                            Exploring technology, creativity and
+                            digital experiences through development,
+                            design, content creation and continuous
+                            learning.
+
+                        </p>
+
+
+                        <!-- =====================================
+                             HERO QUICK ACTIONS
+                        ====================================== -->
+
+                        <div class="hero-actions">
+
+                            <a
+                                href="#projects"
+                                class="hero-primary-button"
+                                data-target="projects"
+                            >
+
+                                <span class="button-text">
+                                    EXPLORE MY WORK
+                                </span>
+
+                                <span class="button-arrow">
+                                    ↗
+                                </span>
+
+                            </a>
+
+
+                            <a
+                                href="#contact"
+                                class="hero-secondary-button"
+                                data-target="contact"
+                            >
+
+                                <span class="button-text">
+                                    LET'S TALK
+                                </span>
+
+                                <span class="button-arrow">
+                                    →
+                                </span>
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- =========================================
+                         HERO PORTRAIT / MAIN VISUAL
+                    ========================================== -->
+
+                    <div
+                        class="hero-visual"
+                        aria-hidden="false"
+                    >
+
+                        <div
+                            class="hero-visual-backdrop"
+                        ></div>
+
+
+                        <div
+                            class="hero-visual-ring hero-visual-ring-one"
+                        ></div>
+
+
+                        <div
+                            class="hero-visual-ring hero-visual-ring-two"
+                        ></div>
+
+
+                        <div
+                            class="hero-portrait-wrapper"
+                        >
+
+                            <div
+                                class="hero-portrait-frame"
+                            >
+
+                                <div
+                                    class="portrait-top-label"
+                                >
+                                    SHORYA / 01
+                                </div>
+
+
+                                <div
+                                    class="portrait-image-container"
+                                >
+
+                                    <!--
+                                        YOUR BLACK & WHITE
+                                        PORTRAIT WILL GO HERE.
+
+                                        Example later:
+
+                                        <img
+                                            src="images/shorya.png"
+                                            alt="Shorya Jain"
+                                        >
+                                    -->
+
+                                    <div
+                                        class="portrait-placeholder"
+                                    >
+
+                                        <span class="portrait-placeholder-initials">
+                                            SJ
+                                        </span>
+
+                                        <span class="portrait-placeholder-text">
+                                            PORTRAIT
+                                        </span>
+
+                                    </div>
+
+                                </div>
+
+
+                                <div
+                                    class="portrait-bottom-label"
+                                >
+
+                                    <span>
+                                        CREATIVE / DIGITAL
+                                    </span>
+
+                                    <span>
+                                        001
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+
+                            <!-- =================================
+                                 FLOATING HERO ELEMENTS
+                            ================================== -->
+
+                            <div
+                                class="floating-element floating-element-code"
+                            >
+
+                                <span>
+                                    &lt;/&gt;
+                                </span>
+
+                            </div>
+
+
+                            <div
+                                class="floating-element floating-element-design"
+                            >
+
+                                <span>
+                                    ✦
+                                </span>
+
+                            </div>
+
+
+                            <div
+                                class="floating-element floating-element-ai"
+                            >
+
+                                <span>
+                                    AI
+                                </span>
+
+                            </div>
+
+
+                            <div
+                                class="floating-element floating-element-play"
+                            >
+
+                                <span>
+                                    ▶
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =============================================
+                     HERO SECTION SELECTOR
+                     This is our main "choose my side" navigation.
+                ============================================== -->
+
+                <div class="hero-section-selector">
+
+
+                    <div class="selector-heading">
+
+                        <span class="selector-heading-line"></span>
+
+                        <span class="selector-heading-text">
+                            EXPLORE A SIDE OF ME
+                        </span>
+
+                    </div>
+
+
+                    <div class="selector-grid">
+
+
+                        <!-- BCA -->
+
+                        <a
+                            href="#bca"
+                            class="selector-item"
+                            data-target="bca"
+                        >
+
+                            <span class="selector-index">
+                                01
+                            </span>
+
+                            <span class="selector-title">
+                                BCA
+                            </span>
+
+                            <span class="selector-description">
+                                Student
+                            </span>
+
+                            <span class="selector-arrow">
+                                ↘
+                            </span>
+
+                        </a>
+
+
+                        <!-- FREELANCING -->
+
+                        <a
+                            href="#freelancing"
+                            class="selector-item"
+                            data-target="freelancing"
+                        >
+
+                            <span class="selector-index">
+                                02
+                            </span>
+
+                            <span class="selector-title">
+                                FREELANCING
+                            </span>
+
+                            <span class="selector-description">
+                                Professional
+                            </span>
+
+                            <span class="selector-arrow">
+                                ↘
+                            </span>
+
+                        </a>
+
+
+                        <!-- PROJECTS -->
+
+                        <a
+                            href="#projects"
+                            class="selector-item"
+                            data-target="projects"
+                        >
+
+                            <span class="selector-index">
+                                03
+                            </span>
+
+                            <span class="selector-title">
+                                PROJECTS
+                            </span>
+
+                            <span class="selector-description">
+                                Building
+                            </span>
+
+                            <span class="selector-arrow">
+                                ↘
+                            </span>
+
+                        </a>
+
+
+                        <!-- ACHIEVEMENTS -->
+
+                        <a
+                            href="#achievements"
+                            class="selector-item"
+                            data-target="achievements"
+                        >
+
+                            <span class="selector-index">
+                                04
+                            </span>
+
+                            <span class="selector-title">
+                                ACHIEVEMENTS
+                            </span>
+
+                            <span class="selector-description">
+                                Milestones
+                            </span>
+
+                            <span class="selector-arrow">
+                                ↘
+                            </span>
+
+                        </a>
+
+
+                        <!-- INTERESTS -->
+
+                        <a
+                            href="#interests"
+                            class="selector-item"
+                            data-target="interests"
+                        >
+
+                            <span class="selector-index">
+                                05
+                            </span>
+
+                            <span class="selector-title">
+                                INTERESTS
+                            </span>
+
+                            <span class="selector-description">
+                                Exploring
+                            </span>
+
+                            <span class="selector-arrow">
+                                ↘
+                            </span>
+
+                        </a>
+
+
+                        <!-- CONTACT -->
+
+                        <a
+                            href="#contact"
+                            class="selector-item"
+                            data-target="contact"
+                        >
+
+                            <span class="selector-index">
+                                06
+                            </span>
+
+                            <span class="selector-title">
+                                CONTACT
+                            </span>
+
+                            <span class="selector-description">
+                                Connect
+                            </span>
+
+                            <span class="selector-arrow">
+                                ↘
+                            </span>
+
+                        </a>
+
+
+                    </div>
+
+                </div>
+
+
+                <!-- =============================================
+                     HERO BOTTOM INFORMATION
+                ============================================== -->
+
+                <div class="hero-bottom">
+
+
+                    <div class="hero-bottom-item">
+
+                        <span class="hero-bottom-label">
+                            BASED IN
+                        </span>
+
+                        <span class="hero-bottom-value">
+                            DELHI NCR
+                        </span>
+
+                    </div>
+
+
+                    <div class="hero-bottom-item">
+
+                        <span class="hero-bottom-label">
+                            CURRENTLY
+                        </span>
+
+                        <span class="hero-bottom-value">
+                            BUILDING
+                        </span>
+
+                    </div>
+
+
+                    <div class="hero-bottom-item">
+
+                        <span class="hero-bottom-label">
+                            STATUS
+                        </span>
+
+                        <span class="hero-bottom-value">
+                            AVAILABLE TO CONNECT
+                        </span>
+
+                    </div>
+
+
+                </div>
+
+
+                <!-- =============================================
+                     SCROLL INDICATOR
+                ============================================== -->
+
+                <a
+                    href="#bca"
+                    class="hero-scroll"
+                    data-target="bca"
+                    aria-label="Scroll to BCA section"
+                >
+
+                    <span class="hero-scroll-text">
+                        SCROLL
+                    </span>
+
+                    <span class="hero-scroll-line">
+
+                        <span class="hero-scroll-dot"></span>
+
+                    </span>
+
+                    <span class="hero-scroll-text">
+                        01
+                    </span>
+
+                </a>
+
+
+            </section>
+
+
+            <!-- =================================================
+                 SECTION 2 PLACEHOLDER
+                 We will replace this with the full BCA section.
+            ================================================== -->
+
+            <!-- INSERT SECTION 2 — BCA HERE -->
+
+
+        </main>
+
+
+        <!-- =====================================================
+             GLOBAL FOOTER PLACEHOLDER
+             Final footer will be completed with Section 7.
+        ====================================================== -->
+
+
+    </div>
+
+
+    <!-- =========================================================
+         MAIN JAVASCRIPT
+    ========================================================== -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+<!-- =========================================================
+     SECTION 2 — BCA YEAR 1
+========================================================== -->
+
+<section
+    id="bca"
+    class="page-section bca-section"
+    data-section="bca"
+>
+
+    <!-- =====================================================
+         SECTION INTRO
+    ====================================================== -->
+
+    <div class="section-top">
+
+        <div class="section-number">
+            01
+        </div>
+
+        <div class="section-category">
+            EDUCATION / ACADEMIC JOURNEY
+        </div>
+
+        <div class="section-status">
+            CURRENT
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         BCA HERO AREA
+    ====================================================== -->
+
+    <div class="bca-introduction">
+
+        <div class="bca-heading-area">
+
+            <span class="section-eyebrow">
+                THE STUDENT BEHIND THE BUILDER
+            </span>
+
+            <h2 class="bca-title">
+
+                <span>
+                    BCA
+                </span>
+
+                <span class="bca-title-accent">
+                    YEAR 1
+                </span>
+
+            </h2>
+
+            <p class="bca-introduction-text">
+                I'm currently pursuing a Bachelor of Computer
+                Applications and building my foundation in
+                programming, technology and digital development.
+            </p>
+
+        </div>
+
+
+        <!-- =================================================
+             EDUCATION IDENTITY VISUAL
+        ================================================== -->
+
+        <div class="bca-identity">
+
+            <div class="bca-identity-frame">
+
+                <div class="bca-identity-top">
+
+                    <span>
+                        STUDENT PROFILE
+                    </span>
+
+                    <span>
+                        01 / 01
+                    </span>
+
+                </div>
+
+
+                <div class="bca-identity-main">
+
+                    <div class="bca-identity-symbol">
+                        BCA
+                    </div>
+
+                    <div class="bca-identity-line"></div>
+
+                    <div class="bca-identity-label">
+                        COMPUTER APPLICATIONS
+                    </div>
+
+                </div>
+
+
+                <div class="bca-identity-bottom">
+
+                    <span>
+                        SHORYA JAIN
+                    </span>
+
+                    <span>
+                        YEAR 01
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         INSTITUTE INFORMATION
+    ====================================================== -->
+
+    <div class="bca-institute">
+
+        <div class="bca-institute-label">
+            INSTITUTE
+        </div>
+
+        <div class="bca-institute-content">
+
+            <h3>
+                Institute of Information Technology
+                & Management
+            </h3>
+
+            <p>
+                IITM, Janakpuri
+            </p>
+
+        </div>
+
+        <div class="bca-institute-location">
+
+            <span>
+                DELHI
+            </span>
+
+            <span>
+                INDIA
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         CURRENT FOCUS
+    ====================================================== -->
+
+    <div class="bca-focus">
+
+        <div class="bca-subheading">
+
+            <span class="subheading-number">
+                01
+            </span>
+
+            <h3>
+                CURRENT FOCUS
+            </h3>
+
+        </div>
+
+
+        <div class="bca-focus-grid">
+
+            <article class="bca-focus-card">
+
+                <div class="focus-card-top">
+
+                    <span>
+                        01
+                    </span>
+
+                    <span>
+                        CODE
+                    </span>
+
+                </div>
+
+                <h4>
+                    Programming
+                </h4>
+
+                <p>
+                    Developing programming fundamentals,
+                    logical thinking and problem-solving skills.
+                </p>
+
+            </article>
+
+
+            <article class="bca-focus-card">
+
+                <div class="focus-card-top">
+
+                    <span>
+                        02
+                    </span>
+
+                    <span>
+                        WEB
+                    </span>
+
+                </div>
+
+                <h4>
+                    Web Development
+                </h4>
+
+                <p>
+                    Understanding how websites are structured,
+                    styled, programmed and deployed.
+                </p>
+
+            </article>
+
+
+            <article class="bca-focus-card">
+
+                <div class="focus-card-top">
+
+                    <span>
+                        03
+                    </span>
+
+                    <span>
+                        TECH
+                    </span>
+
+                </div>
+
+                <h4>
+                    Technology
+                </h4>
+
+                <p>
+                    Exploring modern technologies and learning
+                    how different systems work together.
+                </p>
+
+            </article>
+
+
+            <article class="bca-focus-card">
+
+                <div class="focus-card-top">
+
+                    <span>
+                        04
+                    </span>
+
+                    <span>
+                        FUTURE
+                    </span>
+
+                </div>
+
+                <h4>
+                    Future Direction
+                </h4>
+
+                <p>
+                    Moving toward cybersecurity, automation,
+                    development and advanced computing.
+                </p>
+
+            </article>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         LEARNING PATH
+    ====================================================== -->
+
+    <div class="bca-learning-path">
+
+        <div class="bca-subheading">
+
+            <span class="subheading-number">
+                02
+            </span>
+
+            <h3>
+                LEARNING PATH
+            </h3>
+
+        </div>
+
+
+        <div class="learning-path-track">
+
+            <div class="learning-path-line"></div>
+
+
+            <div class="learning-path-step active">
+
+                <div class="learning-step-marker">
+                    01
+                </div>
+
+                <div class="learning-step-content">
+
+                    <span>
+                        CURRENT
+                    </span>
+
+                    <h4>
+                        Foundation
+                    </h4>
+
+                    <p>
+                        Building core computer and programming
+                        fundamentals.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="learning-path-step">
+
+                <div class="learning-step-marker">
+                    02
+                </div>
+
+                <div class="learning-step-content">
+
+                    <span>
+                        NEXT
+                    </span>
+
+                    <h4>
+                        Development
+                    </h4>
+
+                    <p>
+                        Expanding into stronger development
+                        and software-building skills.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="learning-path-step">
+
+                <div class="learning-step-marker">
+                    03
+                </div>
+
+                <div class="learning-step-content">
+
+                    <span>
+                        FUTURE
+                    </span>
+
+                    <h4>
+                        Specialization
+                    </h4>
+
+                    <p>
+                        Exploring cybersecurity, automation
+                        and advanced technology.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         STUDENT STATEMENT
+    ====================================================== -->
+
+    <div class="bca-statement">
+
+        <div class="statement-index">
+            01
+        </div>
+
+        <blockquote>
+
+            “I'm not just studying technology.
+            I'm learning how to build with it.”
+
+        </blockquote>
+
+        <div class="statement-line"></div>
+
+    </div>
+
+
+    <!-- =====================================================
+         BCA NAVIGATION
+    ====================================================== -->
+
+    <div class="bca-navigation">
+
+        <a
+            href="#freelancing"
+            class="section-next-link"
+            data-target="freelancing"
+        >
+
+            <span class="next-label">
+                NEXT SIDE OF ME
+            </span>
+
+            <span class="next-title">
+                FREELANCING
+            </span>
+
+            <span class="next-arrow">
+                ↓
+            </span>
+
+        </a>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     SECTION 3 — FREELANCING
+========================================================== -->
+
+<section
+    id="freelancing"
+    class="page-section freelancing-section"
+    data-section="freelancing"
+>
+
+    <!-- =====================================================
+         SECTION HEADER
+    ====================================================== -->
+
+    <div class="section-top">
+
+        <div class="section-number">
+            02
+        </div>
+
+        <div class="section-category">
+            PROFESSIONAL WORK / FREELANCING
+        </div>
+
+        <div class="section-status">
+            CREATIVE
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         FREELANCE INTRODUCTION
+    ====================================================== -->
+
+    <div class="freelancing-introduction">
+
+        <div class="freelancing-heading-area">
+
+            <span class="section-eyebrow">
+                TURNING IDEAS INTO VISUALS
+            </span>
+
+            <h2 class="freelancing-title">
+
+                <span>
+                    FREELANCE
+                </span>
+
+                <span class="freelancing-title-accent">
+                    WORK
+                </span>
+
+            </h2>
+
+            <p class="freelancing-introduction-text">
+                Alongside my academic journey, I work on creative
+                projects involving video editing, graphic design,
+                thumbnails and digital content.
+            </p>
+
+        </div>
+
+
+        <!-- =================================================
+             FREELANCER PROFILE VISUAL
+        ================================================== -->
+
+        <div class="freelancing-profile">
+
+            <div class="freelancing-profile-frame">
+
+                <div class="profile-frame-top">
+
+                    <span>
+                        FREELANCER PROFILE
+                    </span>
+
+                    <span>
+                        SJ / 002
+                    </span>
+
+                </div>
+
+
+                <div class="profile-frame-center">
+
+                    <div class="profile-monogram">
+                        SJ
+                    </div>
+
+                    <div class="profile-orbit orbit-one"></div>
+
+                    <div class="profile-orbit orbit-two"></div>
+
+                </div>
+
+
+                <div class="profile-frame-bottom">
+
+                    <span>
+                        DESIGN
+                    </span>
+
+                    <span>
+                        EDIT
+                    </span>
+
+                    <span>
+                        CREATE
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         SERVICES
+    ====================================================== -->
+
+    <div class="freelancing-services">
+
+        <div class="subsection-heading">
+
+            <span class="subsection-number">
+                01
+            </span>
+
+            <span class="subsection-title">
+                WHAT I DO
+            </span>
+
+        </div>
+
+
+        <div class="services-showcase">
+
+
+            <!-- =============================================
+                 VIDEO EDITING
+            ============================================== -->
+
+            <article
+                class="freelance-service-card"
+                data-service="video-editing"
+            >
+
+                <div class="service-card-number">
+                    01
+                </div>
+
+                <div class="service-card-category">
+                    VIDEO
+                </div>
+
+                <div class="service-card-icon">
+                    ▶
+                </div>
+
+                <h3>
+                    Video Editing
+                </h3>
+
+                <p>
+                    Creating engaging short-form and long-form
+                    video content with pacing, motion, transitions,
+                    visual effects and storytelling.
+                </p>
+
+                <div class="service-card-footer">
+
+                    <span>
+                        EDIT
+                    </span>
+
+                    <span>
+                        ↗
+                    </span>
+
+                </div>
+
+            </article>
+
+
+            <!-- =============================================
+                 GRAPHIC DESIGN
+            ============================================== -->
+
+            <article
+                class="freelance-service-card"
+                data-service="graphic-design"
+            >
+
+                <div class="service-card-number">
+                    02
+                </div>
+
+                <div class="service-card-category">
+                    VISUAL
+                </div>
+
+                <div class="service-card-icon">
+                    ✦
+                </div>
+
+                <h3>
+                    Graphic Design
+                </h3>
+
+                <p>
+                    Designing clean and attention-focused visual
+                    assets for digital platforms, promotions,
+                    branding and creative communication.
+                </p>
+
+                <div class="service-card-footer">
+
+                    <span>
+                        DESIGN
+                    </span>
+
+                    <span>
+                        ↗
+                    </span>
+
+                </div>
+
+            </article>
+
+
+            <!-- =============================================
+                 THUMBNAIL DESIGN
+            ============================================== -->
+
+            <article
+                class="freelance-service-card"
+                data-service="thumbnail-design"
+            >
+
+                <div class="service-card-number">
+                    03
+                </div>
+
+                <div class="service-card-category">
+                    CLICK
+                </div>
+
+                <div class="service-card-icon">
+                    ◉
+                </div>
+
+                <h3>
+                    Thumbnail Design
+                </h3>
+
+                <p>
+                    Creating high-impact thumbnails designed to
+                    communicate an idea quickly and capture
+                    attention.
+                </p>
+
+                <div class="service-card-footer">
+
+                    <span>
+                        VISUAL
+                    </span>
+
+                    <span>
+                        ↗
+                    </span>
+
+                </div>
+
+            </article>
+
+
+            <!-- =============================================
+                 CONTENT CREATION
+            ============================================== -->
+
+            <article
+                class="freelance-service-card"
+                data-service="content-creation"
+            >
+
+                <div class="service-card-number">
+                    04
+                </div>
+
+                <div class="service-card-category">
+                    DIGITAL
+                </div>
+
+                <div class="service-card-icon">
+                    +
+                </div>
+
+                <h3>
+                    Content Creation
+                </h3>
+
+                <p>
+                    Developing creative concepts and turning
+                    them into polished digital content for
+                    online audiences.
+                </p>
+
+                <div class="service-card-footer">
+
+                    <span>
+                        CREATE
+                    </span>
+
+                    <span>
+                        ↗
+                    </span>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         SOFTWARE / TOOLS
+    ====================================================== -->
+
+    <div class="freelancing-tools">
+
+        <div class="subsection-heading">
+
+            <span class="subsection-number">
+                02
+            </span>
+
+            <span class="subsection-title">
+                TOOLS & WORKFLOW
+            </span>
+
+        </div>
+
+
+        <div class="tools-marquee">
+
+            <div class="tools-track">
+
+                <span>
+                    DAVINCI RESOLVE
+                </span>
+
+                <span>
+                    KITTl
+                </span>
+
+                <span>
+                    ADOBE WORKFLOW
+                </span>
+
+                <span>
+                    FIGMA
+                </span>
+
+                <span>
+                    CAPCUT
+                </span>
+
+                <span>
+                    VISUAL DESIGN
+                </span>
+
+                <span>
+                    VIDEO EDITING
+                </span>
+
+                <span>
+                    CONTENT CREATION
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         FREELANCE PROCESS
+    ====================================================== -->
+
+    <div class="freelancing-process">
+
+        <div class="subsection-heading">
+
+            <span class="subsection-number">
+                03
+            </span>
+
+            <span class="subsection-title">
+                HOW I WORK
+            </span>
+
+        </div>
+
+
+        <div class="process-grid">
+
+
+            <article class="process-step">
+
+                <div class="process-step-number">
+                    01
+                </div>
+
+                <div class="process-step-icon">
+                    ?
+                </div>
+
+                <h3>
+                    Understand
+                </h3>
+
+                <p>
+                    Understand the goal, audience, references
+                    and requirements of the project.
+                </p>
+
+            </article>
+
+
+            <article class="process-step">
+
+                <div class="process-step-number">
+                    02
+                </div>
+
+                <div class="process-step-icon">
+                    ✦
+                </div>
+
+                <h3>
+                    Plan
+                </h3>
+
+                <p>
+                    Turn the requirement into a clear visual
+                    direction and execution plan.
+                </p>
+
+            </article>
+
+
+            <article class="process-step">
+
+                <div class="process-step-number">
+                    03
+                </div>
+
+                <div class="process-step-icon">
+                    ◌
+                </div>
+
+                <h3>
+                    Create
+                </h3>
+
+                <p>
+                    Build the design, edit or content while
+                    maintaining the intended creative direction.
+                </p>
+
+            </article>
+
+
+            <article class="process-step">
+
+                <div class="process-step-number">
+                    04
+                </div>
+
+                <div class="process-step-icon">
+                    ✓
+                </div>
+
+                <h3>
+                    Deliver
+                </h3>
+
+                <p>
+                    Finalize the work, make required revisions
+                    and deliver the finished result.
+                </p>
+
+            </article>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         SELECTED WORK PLACEHOLDER
+    ====================================================== -->
+
+    <div class="freelancing-portfolio">
+
+        <div class="subsection-heading">
+
+            <span class="subsection-number">
+                04
+            </span>
+
+            <span class="subsection-title">
+                SELECTED WORK
+            </span>
+
+        </div>
+
+
+        <div class="freelance-work-grid">
+
+
+            <!-- WORK 01 -->
+
+            <article
+                class="freelance-project"
+                data-project="freelance-01"
+            >
+
+                <div class="freelance-project-media">
+
+                    <div class="project-media-placeholder">
+
+                        <span>
+                            WORK 01
+                        </span>
+
+                    </div>
+
+                </div>
+
+                <div class="freelance-project-info">
+
+                    <span>
+                        VIDEO EDITING
+                    </span>
+
+                    <h3>
+                        Project Preview
+                    </h3>
+
+                    <p>
+                        Your project description will go here.
+                    </p>
+
+                    <button
+                        type="button"
+                        class="project-view-button"
+                    >
+                        VIEW WORK
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- WORK 02 -->
+
+            <article
+                class="freelance-project"
+                data-project="freelance-02"
+            >
+
+                <div class="freelance-project-media">
+
+                    <div class="project-media-placeholder">
+
+                        <span>
+                            WORK 02
+                        </span>
+
+                    </div>
+
+                </div>
+
+                <div class="freelance-project-info">
+
+                    <span>
+                        GRAPHIC DESIGN
+                    </span>
+
+                    <h3>
+                        Project Preview
+                    </h3>
+
+                    <p>
+                        Your project description will go here.
+                    </p>
+
+                    <button
+                        type="button"
+                        class="project-view-button"
+                    >
+                        VIEW WORK
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- WORK 03 -->
+
+            <article
+                class="freelance-project"
+                data-project="freelance-03"
+            >
+
+                <div class="freelance-project-media">
+
+                    <div class="project-media-placeholder">
+
+                        <span>
+                            WORK 03
+                        </span>
+
+                    </div>
+
+                </div>
+
+                <div class="freelance-project-info">
+
+                    <span>
+                        THUMBNAIL DESIGN
+                    </span>
+
+                    <h3>
+                        Project Preview
+                    </h3>
+
+                    <p>
+                        Your project description will go here.
+                    </p>
+
+                    <button
+                        type="button"
+                        class="project-view-button"
+                    >
+                        VIEW WORK
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- WORK 04 -->
+
+            <article
+                class="freelance-project"
+                data-project="freelance-04"
+            >
+
+                <div class="freelance-project-media">
+
+                    <div class="project-media-placeholder">
+
+                        <span>
+                            WORK 04
+                        </span>
+
+                    </div>
+
+                </div>
+
+                <div class="freelance-project-info">
+
+                    <span>
+                        CONTENT CREATION
+                    </span>
+
+                    <h3>
+                        Project Preview
+                    </h3>
+
+                    <p>
+                        Your project description will go here.
+                    </p>
+
+                    <button
+                        type="button"
+                        class="project-view-button"
+                    >
+                        VIEW WORK
+                    </button>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         FREELANCER STATS
+    ====================================================== -->
+
+    <div class="freelancing-stats">
+
+        <div class="stat-item">
+
+            <span class="stat-value">
+                02+
+            </span>
+
+            <span class="stat-label">
+                YEARS EXPLORING CREATIVE WORK
+            </span>
+
+        </div>
+
+
+        <div class="stat-item">
+
+            <span class="stat-value">
+                04
+            </span>
+
+            <span class="stat-label">
+                CORE CREATIVE SERVICES
+            </span>
+
+        </div>
+
+
+        <div class="stat-item">
+
+            <span class="stat-value">
+                ∞
+            </span>
+
+            <span class="stat-label">
+                IDEAS TO CREATE
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         FREELANCING CTA
+    ====================================================== -->
+
+    <div class="freelancing-cta">
+
+        <div class="cta-copy">
+
+            <span class="section-eyebrow">
+                HAVE A PROJECT IN MIND?
+            </span>
+
+            <h3>
+                LET'S BUILD
+                <span>SOMETHING.</span>
+            </h3>
+
+        </div>
+
+
+        <a
+            href="#contact"
+            class="freelance-contact-button"
+            data-target="contact"
+        >
+
+            <span>
+                START A CONVERSATION
+            </span>
+
+            <span>
+                ↗
+            </span>
+
+        </a>
+
+    </div>
+
+
+    <!-- =====================================================
+         NEXT SECTION NAVIGATION
+    ====================================================== -->
+
+    <div class="section-next-navigation">
+
+        <a
+            href="#projects"
+            class="section-next-link"
+            data-target="projects"
+        >
+
+            <span class="next-label">
+                NEXT SIDE OF ME
+            </span>
+
+            <span class="next-title">
+                PROJECTS
+            </span>
+
+            <span class="next-arrow">
+                ↓
+            </span>
+
+        </a>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     SECTION 4 — PROJECTS / UPCOMING
+========================================================== -->
+
+<section
+    id="projects"
+    class="page-section projects-section"
+    data-section="projects"
+>
+
+    <!-- =====================================================
+         SECTION HEADER
+    ====================================================== -->
+
+    <div class="section-top">
+
+        <div class="section-number">
+            03
+        </div>
+
+        <div class="section-category">
+            PROJECTS / BUILDING
+        </div>
+
+        <div class="section-status">
+            IN PROGRESS
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         PROJECTS INTRODUCTION
+    ====================================================== -->
+
+    <div class="projects-introduction">
+
+        <div class="projects-heading-area">
+
+            <span class="section-eyebrow">
+                IDEAS TURNING INTO PROJECTS
+            </span>
+
+            <h2 class="projects-title">
+
+                <span>
+                    PROJECTS
+                </span>
+
+                <span class="projects-title-accent">
+                    COMING SOON
+                </span>
+
+            </h2>
+
+            <p class="projects-introduction-text">
+                A collection of ideas, experiments and products
+                that I plan to build, develop and bring to life.
+            </p>
+
+        </div>
+
+
+        <!-- =================================================
+             PROJECT COUNTER
+        ================================================== -->
+
+        <div class="projects-counter">
+
+            <span class="projects-counter-label">
+                PROJECTS IN PIPELINE
+            </span>
+
+            <span
+                class="projects-counter-number"
+                data-project-count="06"
+            >
+                06
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         PROJECT FILTER / STATUS BAR
+    ====================================================== -->
+
+    <div class="project-filter-bar">
+
+        <div class="project-filter-label">
+            FILTER PROJECTS
+        </div>
+
+
+        <div class="project-filter-controls">
+
+            <button
+                type="button"
+                class="project-filter-button active"
+                data-project-filter="all"
+            >
+                ALL
+            </button>
+
+            <button
+                type="button"
+                class="project-filter-button"
+                data-project-filter="planning"
+            >
+                PLANNING
+            </button>
+
+            <button
+                type="button"
+                class="project-filter-button"
+                data-project-filter="building"
+            >
+                BUILDING
+            </button>
+
+            <button
+                type="button"
+                class="project-filter-button"
+                data-project-filter="upcoming"
+            >
+                UPCOMING
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         PROJECT GRID
+    ====================================================== -->
+
+    <div class="projects-grid">
+
+
+        <!-- =================================================
+             PROJECT 01
+        ================================================== -->
+
+        <article
+            class="project-card"
+            data-project-id="project-01"
+            data-project-category="web-development"
+            data-project-status="building"
+        >
+
+            <div class="project-card-media">
+
+                <div class="project-card-background">
+
+                    <div class="project-grid-lines"></div>
+
+                    <div class="project-orb"></div>
+
+                </div>
+
+
+                <div class="project-card-top">
+
+                    <span>
+                        PROJECT / 01
+                    </span>
+
+                    <span>
+                        001
+                    </span>
+
+                </div>
+
+
+                <div class="project-card-center">
+
+                    <span class="project-placeholder-symbol">
+                        &lt;/&gt;
+                    </span>
+
+                    <span class="project-placeholder-label">
+                        DIGITAL PRODUCT
+                    </span>
+
+                </div>
+
+
+                <div class="project-card-bottom">
+
+                    <span>
+                        BUILDING
+                    </span>
+
+                    <span>
+                        ↗
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="project-card-content">
+
+                <div class="project-card-meta">
+
+                    <span>
+                        WEB DEVELOPMENT
+                    </span>
+
+                    <span>
+                        BUILDING
+                    </span>
+
+                </div>
+
+
+                <h3>
+                    Future Web Project
+                </h3>
+
+
+                <p>
+                    A web-based project focused on creating
+                    an interactive and useful digital experience.
+                </p>
+
+
+                <div class="project-card-tech">
+
+                    <span>
+                        HTML
+                    </span>
+
+                    <span>
+                        CSS
+                    </span>
+
+                    <span>
+                        JAVASCRIPT
+                    </span>
+
+                </div>
+
+
+                <button
+                    type="button"
+                    class="project-details-button"
+                    data-project-open="project-01"
+                >
+
+                    <span>
+                        VIEW DETAILS
+                    </span>
+
+                    <span>
+                        →
+                    </span>
+
+                </button>
+
+            </div>
+
+        </article>
+
+
+        <!-- =================================================
+             PROJECT 02
+        ================================================== -->
+
+        <article
+            class="project-card"
+            data-project-id="project-02"
+            data-project-category="ai"
+            data-project-status="planning"
+        >
+
+            <div class="project-card-media">
+
+                <div class="project-card-background">
+
+                    <div class="project-grid-lines"></div>
+
+                    <div class="project-orb"></div>
+
+                </div>
+
+
+                <div class="project-card-top">
+
+                    <span>
+                        PROJECT / 02
+                    </span>
+
+                    <span>
+                        002
+                    </span>
+
+                </div>
+
+
+                <div class="project-card-center">
+
+                    <span class="project-placeholder-symbol">
+                        AI
+                    </span>
+
+                    <span class="project-placeholder-label">
+                        AUTOMATION
+                    </span>
+
+                </div>
+
+
+                <div class="project-card-bottom">
+
+                    <span>
+                        PLANNING
+                    </span>
+
+                    <span>
+                        ↗
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="project-card-content">
+
+                <div class="project-card-meta">
+
+                    <span>
+                        AI / AUTOMATION
+                    </span>
+
+                    <span>
+                        PLANNING
+                    </span>
+
+                </div>
+
+
+                <h3>
+                    AI Automation Project
+                </h3>
+
+
+                <p>
+                    An upcoming automation concept exploring
+                    how AI can simplify repetitive digital tasks.
+                </p>
+
+
+                <div class="project-card-tech">
+
+                    <span>
+                        AI
+                    </span>
+
+                    <span>
+                        AUTOMATION
+                    </span>
+
+                    <span>
+                        API
+                    </span>
+
+                </div>
+
+
+                <button
+                    type="button"
+                    class="project-details-button"
+                    data-project-open="project-02"
+                >
+
+                    <span>
+                        VIEW DETAILS
+                    </span>
+
+                    <span>
+                        →
+                    </span>
+
+                </button>
+
+            </div>
+
+        </article>
+
+
+        <!-- =================================================
+             PROJECT 03
+        ================================================== -->
+
+        <article
+            class="project-card"
+            data-project-id="project-03"
+            data-project-category="cybersecurity"
+            data-project-status="upcoming"
+        >
+
+            <div class="project-card-media">
+
+                <div class="project-card-background">
+
+                    <div class="project-grid-lines"></div>
+
+                    <div class="project-orb"></div>
+
+                </div>
+
+
+                <div class="project-card-top">
+
+                    <span>
+                        PROJECT / 03
+                    </span>
+
+                    <span>
+                        003
+                    </span>
+
+                </div>
+
+
+                <div class="project-card-center">
+
+                    <span class="project-placeholder-symbol">
+                        ◈
+                    </span>
+
+                    <span class="project-placeholder-label">
+                        SECURITY
+                    </span>
+
+                </div>
+
+
+                <div class="project-card-bottom">
+
+                    <span>
+                        UPCOMING
+                    </span>
+
+                    <span>
+                        ↗
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="project-card-content">
+
+                <div class="project-card-meta">
+
+                    <span>
+                        CYBERSECURITY
+                    </span>
+
+                    <span>
+                        UPCOMING
+                    </span>
+
+                </div>
+
+
+                <h3>
+                    Security Project
+                </h3>
+
+
+                <p>
+                    A future cybersecurity-focused project
+                    planned as part of my technical learning journey.
+                </p>
+
+
+                <div class="project-card-tech">
+
+                    <span>
+                        SECURITY
+                    </span>
+
+                    <span>
+                        LINUX
+                    </span>
+
+                    <span>
+                        NETWORKING
+                    </span>
+
+                </div>
+
+
+                <button
+                    type="button"
+                    class="project-details-button"
+                    data-project-open="project-03"
+                >
+
+                    <span>
+                        VIEW DETAILS
+                    </span>
+
+                    <span>
+                        →
+                    </span>
+
+                </button>
+
+            </div>
+
+        </article>
+
+
+        <!-- =================================================
+             PROJECT 04
+        ================================================== -->
+
+        <article
+            class="project-card"
+            data-project-id="project-04"
+            data-project-category="content"
+            data-project-status="upcoming"
+        >
+
+            <div class="project-card-media">
+
+                <div class="project-card-background">
+
+                    <div class="project-grid-lines"></div>
+
+                    <div class="project-orb"></div>
+
+                </div>
+
+
+                <div class="project-card-top">
+
+                    <span>
+                        PROJECT / 04
+                    </span>
+
+                    <span>
+                        004
+                    </span>
+
+                </div>
+
+
+                <div class="project-card-center">
+
+                    <span class="project-placeholder-symbol">
+                        ▶
+                    </span>
+
+                    <span class="project-placeholder-label">
+                        CONTENT
+                    </span>
+
+                </div>
+
+
+                <div class="project-card-bottom">
+
+                    <span>
+                        UPCOMING
+                    </span>
+
+                    <span>
+                        ↗
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="project-card-content">
+
+                <div class="project-card-meta">
+
+                    <span>
+                        CONTENT CREATION
+                    </span>
+
+                    <span>
+                        UPCOMING
+                    </span>
+
+                </div>
+
+
+                <h3>
+                    Content Project
+                </h3>
+
+
+                <p>
+                    An upcoming creative project focused on
+                    digital storytelling and content production.
+                </p>
+
+
+                <div class="project-card-tech">
+
+                    <span>
+                        VIDEO
+                    </span>
+
+                    <span>
+                        DESIGN
+                    </span>
+
+                    <span>
+                        STORYTELLING
+                    </span>
+
+                </div>
+
+
+                <button
+                    type="button"
+                    class="project-details-button"
+                    data-project-open="project-04"
+                >
+
+                    <span>
+                        VIEW DETAILS
+                    </span>
+
+                    <span>
+                        →
+                    </span>
+
+                </button>
+
+            </div>
+
+        </article>
+
+
+        <!-- =================================================
+             PROJECT 05
+        ================================================== -->
+
+        <article
+            class="project-card"
+            data-project-id="project-05"
+            data-project-category="hackathon"
+            data-project-status="planning"
+        >
+
+            <div class="project-card-media">
+
+                <div class="project-card-background">
+
+                    <div class="project-grid-lines"></div>
+
+                    <div class="project-orb"></div>
+
+                </div>
+
+
+                <div class="project-card-top">
+
+                    <span>
+                        PROJECT / 05
+                    </span>
+
+                    <span>
+                        005
+                    </span>
+
+                </div>
+
+
+                <div class="project-card-center">
+
+                    <span class="project-placeholder-symbol">
+                        ⚡
+                    </span>
+
+                    <span class="project-placeholder-label">
+                        HACKATHON
+                    </span>
+
+                </div>
+
+
+                <div class="project-card-bottom">
+
+                    <span>
+                        PLANNING
+                    </span>
+
+                    <span>
+                        ↗
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="project-card-content">
+
+                <div class="project-card-meta">
+
+                    <span>
+                        HACKATHON
+                    </span>
+
+                    <span>
+                        PLANNING
+                    </span>
+
+                </div>
+
+
+                <h3>
+                    Hackathon Build
+                </h3>
+
+
+                <p>
+                    A future competition-focused project
+                    designed to turn an idea into a working prototype.
+                </p>
+
+
+                <div class="project-card-tech">
+
+                    <span>
+                        PROTOTYPE
+                    </span>
+
+                    <span>
+                        TEAMWORK
+                    </span>
+
+                    <span>
+                        INNOVATION
+                    </span>
+
+                </div>
+
+
+                <button
+                    type="button"
+                    class="project-details-button"
+                    data-project-open="project-05"
+                >
+
+                    <span>
+                        VIEW DETAILS
+                    </span>
+
+                    <span>
+                        →
+                    </span>
+
+                </button>
+
+            </div>
+
+        </article>
+
+
+        <!-- =================================================
+             PROJECT 06
+        ================================================== -->
+
+        <article
+            class="project-card"
+            data-project-id="project-06"
+            data-project-category="business"
+            data-project-status="upcoming"
+        >
+
+            <div class="project-card-media">
+
+                <div class="project-card-background">
+
+                    <div class="project-grid-lines"></div>
+
+                    <div class="project-orb"></div>
+
+                </div>
+
+
+                <div class="project-card-top">
+
+                    <span>
+                        PROJECT / 06
+                    </span>
+
+                    <span>
+                        006
+                    </span>
+
+                </div>
+
+
+                <div class="project-card-center">
+
+                    <span class="project-placeholder-symbol">
+                        +
+                    </span>
+
+                    <span class="project-placeholder-label">
+                        BUSINESS
+                    </span>
+
+                </div>
+
+
+                <div class="project-card-bottom">
+
+                    <span>
+                        UPCOMING
+                    </span>
+
+                    <span>
+                        ↗
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="project-card-content">
+
+                <div class="project-card-meta">
+
+                    <span>
+                        BUSINESS PLANNING
+                    </span>
+
+                    <span>
+                        UPCOMING
+                    </span>
+
+                </div>
+
+
+                <h3>
+                    Business Concept
+                </h3>
+
+
+                <p>
+                    A future project exploring product ideas,
+                    business strategy and digital execution.
+                </p>
+
+
+                <div class="project-card-tech">
+
+                    <span>
+                        STRATEGY
+                    </span>
+
+                    <span>
+                        RESEARCH
+                    </span>
+
+                    <span>
+                        PRODUCT
+                    </span>
+
+                </div>
+
+
+                <button
+                    type="button"
+                    class="project-details-button"
+                    data-project-open="project-06"
+                >
+
+                    <span>
+                        VIEW DETAILS
+                    </span>
+
+                    <span>
+                        →
+                    </span>
+
+                </button>
+
+            </div>
+
+        </article>
+
+    </div>
+
+
+    <!-- =====================================================
+         PROJECT DETAIL MODAL
+         JavaScript will open this later.
+    ====================================================== -->
+
+    <div
+        id="project-modal"
+        class="project-modal"
+        aria-hidden="true"
+    >
+
+        <div class="project-modal-backdrop"></div>
+
+
+        <div
+            class="project-modal-panel"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="project-modal-title"
+        >
+
+            <div class="project-modal-header">
+
+                <span class="project-modal-label">
+                    PROJECT DETAILS
+                </span>
+
+                <button
+                    type="button"
+                    id="project-modal-close"
+                    class="project-modal-close"
+                    aria-label="Close project details"
+                >
+                    CLOSE ×
+                </button>
+
+            </div>
+
+
+            <div class="project-modal-content">
+
+                <span
+                    id="project-modal-category"
+                    class="project-modal-category"
+                >
+                    PROJECT
+                </span>
+
+                <h3
+                    id="project-modal-title"
+                >
+                    Project Title
+                </h3>
+
+                <p
+                    id="project-modal-description"
+                >
+                    Project description will appear here.
+                </p>
+
+
+                <div class="project-modal-information">
+
+                    <div class="project-modal-information-item">
+
+                        <span>
+                            STATUS
+                        </span>
+
+                        <strong
+                            id="project-modal-status"
+                        >
+                            UPCOMING
+                        </strong>
+
+                    </div>
+
+
+                    <div class="project-modal-information-item">
+
+                        <span>
+                            CATEGORY
+                        </span>
+
+                        <strong
+                            id="project-modal-category-detail"
+                        >
+                            DIGITAL
+                        </strong>
+
+                    </div>
+
+
+                    <div class="project-modal-information-item">
+
+                        <span>
+                            TECHNOLOGIES
+                        </span>
+
+                        <strong
+                            id="project-modal-technologies"
+                        >
+                            TO BE DECIDED
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+                <div class="project-modal-note">
+
+                    <span>
+                        NOTE
+                    </span>
+
+                    <p>
+                        Detailed project information,
+                        screenshots and live links will be added
+                        as each project develops.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         PROJECT PIPELINE
+    ====================================================== -->
+
+    <div class="project-pipeline">
+
+        <div class="subsection-heading">
+
+            <span class="subsection-number">
+                01
+            </span>
+
+            <span class="subsection-title">
+                PROJECT PIPELINE
+            </span>
+
+        </div>
+
+
+        <div class="project-pipeline-track">
+
+
+            <div class="pipeline-stage active">
+
+                <div class="pipeline-stage-marker">
+                    01
+                </div>
+
+                <div class="pipeline-stage-content">
+
+                    <span>
+                        IDEATION
+                    </span>
+
+                    <h3>
+                        Think
+                    </h3>
+
+                    <p>
+                        Explore a problem, idea or opportunity.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="pipeline-stage">
+
+                <div class="pipeline-stage-marker">
+                    02
+                </div>
+
+                <div class="pipeline-stage-content">
+
+                    <span>
+                        PLANNING
+                    </span>
+
+                    <h3>
+                        Plan
+                    </h3>
+
+                    <p>
+                        Define features, structure and direction.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="pipeline-stage">
+
+                <div class="pipeline-stage-marker">
+                    03
+                </div>
+
+                <div class="pipeline-stage-content">
+
+                    <span>
+                        DEVELOPMENT
+                    </span>
+
+                    <h3>
+                        Build
+                    </h3>
+
+                    <p>
+                        Turn the concept into a functional project.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="pipeline-stage">
+
+                <div class="pipeline-stage-marker">
+                    04
+                </div>
+
+                <div class="pipeline-stage-content">
+
+                    <span>
+                        LAUNCH
+                    </span>
+
+                    <h3>
+                        Release
+                    </h3>
+
+                    <p>
+                        Test, improve and make the project available.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         PROJECT PHILOSOPHY
+    ====================================================== -->
+
+    <div class="projects-statement">
+
+        <div class="statement-index">
+            03
+        </div>
+
+        <blockquote>
+            “An idea becomes real when you build it.”
+        </blockquote>
+
+        <div class="statement-line"></div>
+
+    </div>
+
+
+    <!-- =====================================================
+         NEXT SECTION NAVIGATION
+    ====================================================== -->
+
+    <div class="section-next-navigation">
+
+        <a
+            href="#achievements"
+            class="section-next-link"
+            data-target="achievements"
+        >
+
+            <span class="next-label">
+                NEXT SIDE OF ME
+            </span>
+
+            <span class="next-title">
+                ACHIEVEMENTS
+            </span>
+
+            <span class="next-arrow">
+                ↓
+            </span>
+
+        </a>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     SECTION 5 — ACHIEVEMENTS
+========================================================== -->
+
+<section
+    id="achievements"
+    class="page-section achievements-section"
+    data-section="achievements"
+>
+
+    <!-- =====================================================
+         SECTION HEADER
+    ====================================================== -->
+
+    <div class="section-top">
+
+        <div class="section-number">
+            04
+        </div>
+
+        <div class="section-category">
+            MILESTONES / ACHIEVEMENTS
+        </div>
+
+        <div class="section-status">
+            JOURNEY
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         ACHIEVEMENTS INTRODUCTION
+    ====================================================== -->
+
+    <div class="achievements-introduction">
+
+        <div class="achievements-heading-area">
+
+            <span class="section-eyebrow">
+                MILESTONES ALONG THE WAY
+            </span>
+
+            <h2 class="achievements-title">
+
+                <span>
+                    ACHIEVE
+                </span>
+
+                <span class="achievements-title-accent">
+                    MORE
+                </span>
+
+            </h2>
+
+            <p class="achievements-introduction-text">
+                A record of competitions, awards, experiences
+                and milestones that have shaped my journey so far.
+            </p>
+
+        </div>
+
+
+        <!-- =================================================
+             ACHIEVEMENT COUNTER
+        ================================================== -->
+
+        <div class="achievements-counter">
+
+            <span class="achievements-counter-label">
+                MILESTONES
+            </span>
+
+            <span
+                class="achievements-counter-number"
+                data-achievement-count="00"
+            >
+                00
+            </span>
+
+            <span class="achievements-counter-note">
+                UPDATING
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         FEATURED ACHIEVEMENT
+    ====================================================== -->
+
+    <div class="featured-achievement">
+
+        <div class="featured-achievement-background">
+
+            <div class="featured-grid"></div>
+
+            <div class="featured-glow"></div>
+
+        </div>
+
+
+        <div class="featured-achievement-header">
+
+            <span>
+                FEATURED MILESTONE
+            </span>
+
+            <span>
+                SJ / 004
+            </span>
+
+        </div>
+
+
+        <div class="featured-achievement-main">
+
+            <div class="featured-achievement-mark">
+                ★
+            </div>
+
+            <div class="featured-achievement-copy">
+
+                <span class="featured-achievement-category">
+                    ACHIEVEMENT
+                </span>
+
+                <h3 id="featured-achievement-title">
+                    Your Biggest Achievement
+                </h3>
+
+                <p id="featured-achievement-description">
+                    A detailed description of the selected
+                    achievement can be displayed here.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="featured-achievement-footer">
+
+            <span>
+                YEAR
+            </span>
+
+            <strong id="featured-achievement-year">
+                2026
+            </strong>
+
+            <span>
+                /
+            </span>
+
+            <span>
+                STATUS
+            </span>
+
+            <strong id="featured-achievement-status">
+                COMPLETED
+            </strong>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         ACHIEVEMENT CATEGORIES
+    ====================================================== -->
+
+    <div class="achievement-category-bar">
+
+        <div class="achievement-category-label">
+            EXPLORE MILESTONES
+        </div>
+
+
+        <div class="achievement-category-controls">
+
+            <button
+                type="button"
+                class="achievement-filter-button active"
+                data-achievement-filter="all"
+            >
+                ALL
+            </button>
+
+            <button
+                type="button"
+                class="achievement-filter-button"
+                data-achievement-filter="competition"
+            >
+                COMPETITIONS
+            </button>
+
+            <button
+                type="button"
+                class="achievement-filter-button"
+                data-achievement-filter="award"
+            >
+                AWARDS
+            </button>
+
+            <button
+                type="button"
+                class="achievement-filter-button"
+                data-achievement-filter="hackathon"
+            >
+                HACKATHONS
+            </button>
+
+            <button
+                type="button"
+                class="achievement-filter-button"
+                data-achievement-filter="certification"
+            >
+                CERTIFICATIONS
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         ACHIEVEMENT TIMELINE
+    ====================================================== -->
+
+    <div class="achievement-timeline">
+
+        <div class="timeline-axis">
+
+            <span class="timeline-axis-start">
+                NOW
+            </span>
+
+            <div class="timeline-axis-line"></div>
+
+            <span class="timeline-axis-end">
+                START
+            </span>
+
+        </div>
+
+
+        <!-- =================================================
+             ACHIEVEMENT ITEM 01
+        ================================================== -->
+
+        <article
+            class="achievement-entry"
+            data-achievement-id="achievement-01"
+            data-achievement-category="award"
+            data-achievement-year="2026"
+        >
+
+            <div class="achievement-entry-side">
+
+                <span class="achievement-entry-index">
+                    01
+                </span>
+
+                <span class="achievement-entry-year">
+                    2026
+                </span>
+
+            </div>
+
+
+            <div class="achievement-entry-marker">
+
+                <span class="achievement-marker-core"></span>
+
+            </div>
+
+
+            <div class="achievement-entry-content">
+
+                <div class="achievement-entry-meta">
+
+                    <span>
+                        AWARD
+                    </span>
+
+                    <span>
+                        2026
+                    </span>
+
+                </div>
+
+
+                <h3>
+                    Achievement Title
+                </h3>
+
+
+                <p>
+                    Add the details of your achievement here,
+                    including the event, competition, result
+                    or recognition you received.
+                </p>
+
+
+                <div class="achievement-entry-actions">
+
+                    <button
+                        type="button"
+                        class="achievement-view-button"
+                        data-achievement-open="achievement-01"
+                    >
+                        VIEW DETAILS
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- =================================================
+             ACHIEVEMENT ITEM 02
+        ================================================== -->
+
+        <article
+            class="achievement-entry"
+            data-achievement-id="achievement-02"
+            data-achievement-category="competition"
+            data-achievement-year="2026"
+        >
+
+            <div class="achievement-entry-side">
+
+                <span class="achievement-entry-index">
+                    02
+                </span>
+
+                <span class="achievement-entry-year">
+                    2026
+                </span>
+
+            </div>
+
+
+            <div class="achievement-entry-marker">
+
+                <span class="achievement-marker-core"></span>
+
+            </div>
+
+
+            <div class="achievement-entry-content">
+
+                <div class="achievement-entry-meta">
+
+                    <span>
+                        COMPETITION
+                    </span>
+
+                    <span>
+                        2026
+                    </span>
+
+                </div>
+
+
+                <h3>
+                    Competition Achievement
+                </h3>
+
+
+                <p>
+                    Add the competition name, your participation,
+                    position or result and a short description
+                    of what you accomplished.
+                </p>
+
+
+                <div class="achievement-entry-actions">
+
+                    <button
+                        type="button"
+                        class="achievement-view-button"
+                        data-achievement-open="achievement-02"
+                    >
+                        VIEW DETAILS
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- =================================================
+             ACHIEVEMENT ITEM 03
+        ================================================== -->
+
+        <article
+            class="achievement-entry"
+            data-achievement-id="achievement-03"
+            data-achievement-category="competition"
+            data-achievement-year="2026"
+        >
+
+            <div class="achievement-entry-side">
+
+                <span class="achievement-entry-index">
+                    03
+                </span>
+
+                <span class="achievement-entry-year">
+                    2026
+                </span>
+
+            </div>
+
+
+            <div class="achievement-entry-marker">
+
+                <span class="achievement-marker-core"></span>
+
+            </div>
+
+
+            <div class="achievement-entry-content">
+
+                <div class="achievement-entry-meta">
+
+                    <span>
+                        COMPETITION
+                    </span>
+
+                    <span>
+                        2026
+                    </span>
+
+                </div>
+
+
+                <h3>
+                    Competition / Hackathon
+                </h3>
+
+
+                <p>
+                    Add the event name and what you built,
+                    presented or contributed during the event.
+                </p>
+
+
+                <div class="achievement-entry-actions">
+
+                    <button
+                        type="button"
+                        class="achievement-view-button"
+                        data-achievement-open="achievement-03"
+                    >
+                        VIEW DETAILS
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- =================================================
+             ACHIEVEMENT ITEM 04
+        ================================================== -->
+
+        <article
+            class="achievement-entry"
+            data-achievement-id="achievement-04"
+            data-achievement-category="award"
+            data-achievement-year="2025"
+        >
+
+            <div class="achievement-entry-side">
+
+                <span class="achievement-entry-index">
+                    04
+                </span>
+
+                <span class="achievement-entry-year">
+                    2025
+                </span>
+
+            </div>
+
+
+            <div class="achievement-entry-marker">
+
+                <span class="achievement-marker-core"></span>
+
+            </div>
+
+
+            <div class="achievement-entry-content">
+
+                <div class="achievement-entry-meta">
+
+                    <span>
+                        AWARD
+                    </span>
+
+                    <span>
+                        2025
+                    </span>
+
+                </div>
+
+
+                <h3>
+                    Earlier Achievement
+                </h3>
+
+
+                <p>
+                    Add one of your previous awards, school
+                    achievements or recognitions here.
+                </p>
+
+
+                <div class="achievement-entry-actions">
+
+                    <button
+                        type="button"
+                        class="achievement-view-button"
+                        data-achievement-open="achievement-04"
+                    >
+                        VIEW DETAILS
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- =================================================
+             ACHIEVEMENT ITEM 05
+        ================================================== -->
+
+        <article
+            class="achievement-entry"
+            data-achievement-id="achievement-05"
+            data-achievement-category="certification"
+            data-achievement-year="2026"
+        >
+
+            <div class="achievement-entry-side">
+
+                <span class="achievement-entry-index">
+                    05
+                </span>
+
+                <span class="achievement-entry-year">
+                    2026
+                </span>
+
+            </div>
+
+
+            <div class="achievement-entry-marker">
+
+                <span class="achievement-marker-core"></span>
+
+            </div>
+
+
+            <div class="achievement-entry-content">
+
+                <div class="achievement-entry-meta">
+
+                    <span>
+                        CERTIFICATION
+                    </span>
+
+                    <span>
+                        2026
+                    </span>
+
+                </div>
+
+
+                <h3>
+                    Certification
+                </h3>
+
+
+                <p>
+                    Add certification details here once you
+                    complete a relevant course or credential.
+                </p>
+
+
+                <div class="achievement-entry-actions">
+
+                    <button
+                        type="button"
+                        class="achievement-view-button"
+                        data-achievement-open="achievement-05"
+                    >
+                        VIEW DETAILS
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- =================================================
+             ACHIEVEMENT ITEM 06
+        ================================================== -->
+
+        <article
+            class="achievement-entry"
+            data-achievement-id="achievement-06"
+            data-achievement-category="hackathon"
+            data-achievement-year="2026"
+        >
+
+            <div class="achievement-entry-side">
+
+                <span class="achievement-entry-index">
+                    06
+                </span>
+
+                <span class="achievement-entry-year">
+                    2026
+                </span>
+
+            </div>
+
+
+            <div class="achievement-entry-marker">
+
+                <span class="achievement-marker-core"></span>
+
+            </div>
+
+
+            <div class="achievement-entry-content">
+
+                <div class="achievement-entry-meta">
+
+                    <span>
+                        HACKATHON
+                    </span>
+
+                    <span>
+                        2026
+                    </span>
+
+                </div>
+
+
+                <h3>
+                    Hackathon Milestone
+                </h3>
+
+
+                <p>
+                    Add your hackathon participation, team,
+                    prototype, problem statement or result.
+                </p>
+
+
+                <div class="achievement-entry-actions">
+
+                    <button
+                        type="button"
+                        class="achievement-view-button"
+                        data-achievement-open="achievement-06"
+                    >
+                        VIEW DETAILS
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+    </div>
+
+
+    <!-- =====================================================
+         ACHIEVEMENT CARD WALL
+    ====================================================== -->
+
+    <div class="achievement-wall">
+
+        <div class="subsection-heading">
+
+            <span class="subsection-number">
+                01
+            </span>
+
+            <span class="subsection-title">
+                QUICK MILESTONES
+            </span>
+
+        </div>
+
+
+        <div class="achievement-wall-grid">
+
+
+            <article class="achievement-mini-card">
+
+                <span class="mini-card-icon">
+                    🏆
+                </span>
+
+                <span class="mini-card-label">
+                    AWARDS
+                </span>
+
+                <strong>
+                    ADD
+                </strong>
+
+                <p>
+                    Awards and positions
+                </p>
+
+            </article>
+
+
+            <article class="achievement-mini-card">
+
+                <span class="mini-card-icon">
+                    ⚡
+                </span>
+
+                <span class="mini-card-label">
+                    HACKATHONS
+                </span>
+
+                <strong>
+                    ADD
+                </strong>
+
+                <p>
+                    Hackathon experiences
+                </p>
+
+            </article>
+
+
+            <article class="achievement-mini-card">
+
+                <span class="mini-card-icon">
+                    🎓
+                </span>
+
+                <span class="mini-card-label">
+                    CERTIFICATIONS
+                </span>
+
+                <strong>
+                    ADD
+                </strong>
+
+                <p>
+                    Credentials and courses
+                </p>
+
+            </article>
+
+
+            <article class="achievement-mini-card">
+
+                <span class="mini-card-icon">
+                    ★
+                </span>
+
+                <span class="mini-card-label">
+                    OTHER
+                </span>
+
+                <strong>
+                    ADD
+                </strong>
+
+                <p>
+                    Personal milestones
+                </p>
+
+            </article>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         ACHIEVEMENT DETAIL MODAL
+    ====================================================== -->
+
+    <div
+        id="achievement-modal"
+        class="achievement-modal"
+        aria-hidden="true"
+    >
+
+        <div class="achievement-modal-backdrop"></div>
+
+
+        <div
+            class="achievement-modal-panel"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="achievement-modal-title"
+        >
+
+            <div class="achievement-modal-header">
+
+                <span>
+                    MILESTONE DETAILS
+                </span>
+
+                <button
+                    type="button"
+                    id="achievement-modal-close"
+                    class="achievement-modal-close"
+                    aria-label="Close achievement details"
+                >
+                    CLOSE ×
+                </button>
+
+            </div>
+
+
+            <div class="achievement-modal-main">
+
+                <div class="achievement-modal-symbol">
+                    ★
+                </div>
+
+
+                <div class="achievement-modal-copy">
+
+                    <span
+                        id="achievement-modal-category"
+                        class="achievement-modal-category"
+                    >
+                        ACHIEVEMENT
+                    </span>
+
+
+                    <h3 id="achievement-modal-title">
+                        Achievement Title
+                    </h3>
+
+
+                    <p id="achievement-modal-description">
+                        Achievement description will appear here.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="achievement-modal-meta">
+
+                <div class="achievement-modal-meta-item">
+
+                    <span>
+                        YEAR
+                    </span>
+
+                    <strong id="achievement-modal-year">
+                        2026
+                    </strong>
+
+                </div>
+
+
+                <div class="achievement-modal-meta-item">
+
+                    <span>
+                        TYPE
+                    </span>
+
+                    <strong id="achievement-modal-type">
+                        ACHIEVEMENT
+                    </strong>
+
+                </div>
+
+
+                <div class="achievement-modal-meta-item">
+
+                    <span>
+                        STATUS
+                    </span>
+
+                    <strong id="achievement-modal-status">
+                        COMPLETED
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <div class="achievement-modal-media">
+
+                <div class="achievement-media-placeholder">
+
+                    <span>
+                        CERTIFICATE / PHOTO / PROOF
+                    </span>
+
+                    <small>
+                        IMAGE CAN BE ADDED LATER
+                    </small>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         ACHIEVEMENT PHILOSOPHY
+    ====================================================== -->
+
+    <div class="achievements-statement">
+
+        <div class="statement-index">
+            04
+        </div>
+
+        <blockquote>
+            “Every milestone is a checkpoint, not the finish line.”
+        </blockquote>
+
+        <div class="statement-line"></div>
+
+    </div>
+
+
+    <!-- =====================================================
+         NEXT SECTION NAVIGATION
+    ====================================================== -->
+
+    <div class="section-next-navigation">
+
+        <a
+            href="#interests"
+            class="section-next-link"
+            data-target="interests"
+        >
+
+            <span class="next-label">
+                NEXT SIDE OF ME
+            </span>
+
+            <span class="next-title">
+                INTERESTS
+            </span>
+
+            <span class="next-arrow">
+                ↓
+            </span>
+
+        </a>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     SECTION 6 — INTERESTS
+========================================================== -->
+
+<section
+    id="interests"
+    class="page-section interests-section"
+    data-section="interests"
+>
+
+    <!-- =====================================================
+         SECTION HEADER
+    ====================================================== -->
+
+    <div class="section-top">
+
+        <div class="section-number">
+            05
+        </div>
+
+        <div class="section-category">
+            INTERESTS / EXPLORATION
+        </div>
+
+        <div class="section-status">
+            EXPLORING
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         INTERESTS INTRODUCTION
+    ====================================================== -->
+
+    <div class="interests-introduction">
+
+        <div class="interests-heading-area">
+
+            <span class="section-eyebrow">
+                BEYOND THE CLASSROOM
+            </span>
+
+            <h2 class="interests-title">
+
+                <span>
+                    THINGS
+                </span>
+
+                <span class="interests-title-accent">
+                    I EXPLORE
+                </span>
+
+            </h2>
+
+            <p class="interests-introduction-text">
+                My interests extend across technology, creativity,
+                entrepreneurship and continuous learning. Each one
+                represents an area I want to understand, experiment
+                with and eventually build something around.
+            </p>
+
+        </div>
+
+
+        <!-- =================================================
+             INTEREST COUNTER
+        ================================================== -->
+
+        <div class="interests-counter">
+
+            <span class="interests-counter-label">
+                ACTIVE INTERESTS
+            </span>
+
+            <span
+                class="interests-counter-number"
+                data-interest-count="08"
+            >
+                08
+            </span>
+
+            <span class="interests-counter-note">
+                & COUNTING
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         INTEREST UNIVERSE
+    ====================================================== -->
+
+    <div class="interest-universe">
+
+        <!-- =================================================
+             UNIVERSE BACKGROUND
+        ================================================== -->
+
+        <div
+            class="interest-universe-background"
+            aria-hidden="true"
+        >
+
+            <div class="universe-grid"></div>
+
+            <div class="universe-glow universe-glow-one"></div>
+
+            <div class="universe-glow universe-glow-two"></div>
+
+            <div class="universe-orbit universe-orbit-one"></div>
+
+            <div class="universe-orbit universe-orbit-two"></div>
+
+            <div class="universe-orbit universe-orbit-three"></div>
+
+        </div>
+
+
+        <!-- =================================================
+             CONNECTION LINES
+        ================================================== -->
+
+        <div
+            class="interest-connections"
+            aria-hidden="true"
+        >
+
+            <span class="connection-line connection-line-one"></span>
+
+            <span class="connection-line connection-line-two"></span>
+
+            <span class="connection-line connection-line-three"></span>
+
+            <span class="connection-line connection-line-four"></span>
+
+            <span class="connection-line connection-line-five"></span>
+
+            <span class="connection-line connection-line-six"></span>
+
+            <span class="connection-line connection-line-seven"></span>
+
+            <span class="connection-line connection-line-eight"></span>
+
+        </div>
+
+
+        <!-- =================================================
+             CENTRAL IDENTITY
+        ================================================== -->
+
+        <div class="interest-center">
+
+            <div class="interest-center-ring interest-center-ring-one"></div>
+
+            <div class="interest-center-ring interest-center-ring-two"></div>
+
+            <div class="interest-center-ring interest-center-ring-three"></div>
+
+
+            <div class="interest-center-content">
+
+                <span class="interest-center-eyebrow">
+                    AT THE CENTER
+                </span>
+
+                <strong class="interest-center-name">
+                    SHORYA
+                </strong>
+
+                <span class="interest-center-role">
+                    CURIOUS BY DEFAULT
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             INTEREST 01 — FREELANCING
+        ================================================== -->
+
+        <button
+            type="button"
+            class="interest-node interest-node-one"
+            data-interest-id="freelancing"
+            aria-label="Explore freelancing interest"
+        >
+
+            <span class="interest-node-index">
+                01
+            </span>
+
+            <span class="interest-node-icon">
+                $
+            </span>
+
+            <span class="interest-node-name">
+                FREELANCING
+            </span>
+
+            <span class="interest-node-tag">
+                WORK
+            </span>
+
+        </button>
+
+
+        <!-- =================================================
+             INTEREST 02 — CYBERSECURITY
+        ================================================== -->
+
+        <button
+            type="button"
+            class="interest-node interest-node-two"
+            data-interest-id="cybersecurity"
+            aria-label="Explore cybersecurity interest"
+        >
+
+            <span class="interest-node-index">
+                02
+            </span>
+
+            <span class="interest-node-icon">
+                ◈
+            </span>
+
+            <span class="interest-node-name">
+                CYBERSECURITY
+            </span>
+
+            <span class="interest-node-tag">
+                SECURITY
+            </span>
+
+        </button>
+
+
+        <!-- =================================================
+             INTEREST 03 — AI AUTOMATION
+        ================================================== -->
+
+        <button
+            type="button"
+            class="interest-node interest-node-three"
+            data-interest-id="ai-automation"
+            aria-label="Explore AI automation interest"
+        >
+
+            <span class="interest-node-index">
+                03
+            </span>
+
+            <span class="interest-node-icon">
+                AI
+            </span>
+
+            <span class="interest-node-name">
+                AI AUTOMATION
+            </span>
+
+            <span class="interest-node-tag">
+                SYSTEMS
+            </span>
+
+        </button>
+
+
+        <!-- =================================================
+             INTEREST 04 — CONTENT CREATION
+        ================================================== -->
+
+        <button
+            type="button"
+            class="interest-node interest-node-four"
+            data-interest-id="content-creation"
+            aria-label="Explore content creation interest"
+        >
+
+            <span class="interest-node-index">
+                04
+            </span>
+
+            <span class="interest-node-icon">
+                ▶
+            </span>
+
+            <span class="interest-node-name">
+                CONTENT CREATION
+            </span>
+
+            <span class="interest-node-tag">
+                CREATE
+            </span>
+
+        </button>
+
+
+        <!-- =================================================
+             INTEREST 05 — LEARNING
+        ================================================== -->
+
+        <button
+            type="button"
+            class="interest-node interest-node-five"
+            data-interest-id="learning"
+            aria-label="Explore learning interest"
+        >
+
+            <span class="interest-node-index">
+                05
+            </span>
+
+            <span class="interest-node-icon">
+                +
+            </span>
+
+            <span class="interest-node-name">
+                LEARNING
+            </span>
+
+            <span class="interest-node-tag">
+                GROWTH
+            </span>
+
+        </button>
+
+
+        <!-- =================================================
+             INTEREST 06 — WEB DEVELOPMENT
+        ================================================== -->
+
+        <button
+            type="button"
+            class="interest-node interest-node-six"
+            data-interest-id="web-development"
+            aria-label="Explore web development interest"
+        >
+
+            <span class="interest-node-index">
+                06
+            </span>
+
+            <span class="interest-node-icon">
+                &lt;/&gt;
+            </span>
+
+            <span class="interest-node-name">
+                WEB DEVELOPMENT
+            </span>
+
+            <span class="interest-node-tag">
+                BUILD
+            </span>
+
+        </button>
+
+
+        <!-- =================================================
+             INTEREST 07 — HACKATHONS
+        ================================================== -->
+
+        <button
+            type="button"
+            class="interest-node interest-node-seven"
+            data-interest-id="hackathons"
+            aria-label="Explore hackathons interest"
+        >
+
+            <span class="interest-node-index">
+                07
+            </span>
+
+            <span class="interest-node-icon">
+                ⚡
+            </span>
+
+            <span class="interest-node-name">
+                HACKATHONS
+            </span>
+
+            <span class="interest-node-tag">
+                COMPETE
+            </span>
+
+        </button>
+
+
+        <!-- =================================================
+             INTEREST 08 — BUSINESS PLANNING
+        ================================================== -->
+
+        <button
+            type="button"
+            class="interest-node interest-node-eight"
+            data-interest-id="business-planning"
+            aria-label="Explore business planning interest"
+        >
+
+            <span class="interest-node-index">
+                08
+            </span>
+
+            <span class="interest-node-icon">
+                ↗
+            </span>
+
+            <span class="interest-node-name">
+                BUSINESS PLANNING
+            </span>
+
+            <span class="interest-node-tag">
+                STRATEGY
+            </span>
+
+        </button>
+
+    </div>
+
+
+    <!-- =====================================================
+         INTEREST DETAIL PANEL
+    ====================================================== -->
+
+    <div
+        id="interest-detail-panel"
+        class="interest-detail-panel"
+        aria-live="polite"
+    >
+
+        <div class="interest-detail-empty">
+
+            <span class="detail-empty-index">
+                00
+            </span>
+
+            <span class="detail-empty-title">
+                SELECT AN INTEREST
+            </span>
+
+            <p>
+                Explore one of the eight areas around me to
+                understand what I'm curious about and where
+                I want to grow.
+            </p>
+
+        </div>
+
+
+        <!-- =================================================
+             FREELANCING DETAIL
+        ================================================== -->
+
+        <article
+            class="interest-detail-card"
+            data-interest-detail="freelancing"
+            hidden
+        >
+
+            <div class="interest-detail-header">
+
+                <div>
+
+                    <span class="interest-detail-index">
+                        01
+                    </span>
+
+                    <span class="interest-detail-category">
+                        PROFESSIONAL
+                    </span>
+
+                </div>
+
+                <span class="interest-detail-symbol">
+                    $
+                </span>
+
+            </div>
+
+
+            <div class="interest-detail-main">
+
+                <h3>
+                    Freelancing
+                </h3>
+
+                <p>
+                    I'm interested in building creative skills
+                    that can turn into real-world freelance work,
+                    client projects and independent opportunities.
+                </p>
+
+            </div>
+
+
+            <div class="interest-detail-tags">
+
+                <span>
+                    CLIENT WORK
+                </span>
+
+                <span>
+                    DESIGN
+                </span>
+
+                <span>
+                    EDITING
+                </span>
+
+            </div>
+
+        </article>
+
+
+        <!-- =================================================
+             CYBERSECURITY DETAIL
+        ================================================== -->
+
+        <article
+            class="interest-detail-card"
+            data-interest-detail="cybersecurity"
+            hidden
+        >
+
+            <div class="interest-detail-header">
+
+                <div>
+
+                    <span class="interest-detail-index">
+                        02
+                    </span>
+
+                    <span class="interest-detail-category">
+                        TECHNOLOGY
+                    </span>
+
+                </div>
+
+                <span class="interest-detail-symbol">
+                    ◈
+                </span>
+
+            </div>
+
+
+            <div class="interest-detail-main">
+
+                <h3>
+                    Cybersecurity
+                </h3>
+
+                <p>
+                    I'm interested in understanding how digital
+                    systems are protected, how vulnerabilities
+                    work and how secure software and networks
+                    are designed.
+                </p>
+
+            </div>
+
+
+            <div class="interest-detail-tags">
+
+                <span>
+                    SECURITY
+                </span>
+
+                <span>
+                    NETWORKS
+                </span>
+
+                <span>
+                    SYSTEMS
+                </span>
+
+            </div>
+
+        </article>
+
+
+        <!-- =================================================
+             AI AUTOMATION DETAIL
+        ================================================== -->
+
+        <article
+            class="interest-detail-card"
+            data-interest-detail="ai-automation"
+            hidden
+        >
+
+            <div class="interest-detail-header">
+
+                <div>
+
+                    <span class="interest-detail-index">
+                        03
+                    </span>
+
+                    <span class="interest-detail-category">
+                        INTELLIGENT SYSTEMS
+                    </span>
+
+                </div>
+
+                <span class="interest-detail-symbol">
+                    AI
+                </span>
+
+            </div>
+
+
+            <div class="interest-detail-main">
+
+                <h3>
+                    AI Automation
+                </h3>
+
+                <p>
+                    I'm interested in using AI, automation and
+                    connected tools to simplify workflows and
+                    turn repetitive tasks into intelligent systems.
+                </p>
+
+            </div>
+
+
+            <div class="interest-detail-tags">
+
+                <span>
+                    AI
+                </span>
+
+                <span>
+                    AUTOMATION
+                </span>
+
+                <span>
+                    WORKFLOWS
+                </span>
+
+            </div>
+
+        </article>
+
+
+        <!-- =================================================
+             CONTENT CREATION DETAIL
+        ================================================== -->
+
+        <article
+            class="interest-detail-card"
+            data-interest-detail="content-creation"
+            hidden
+        >
+
+            <div class="interest-detail-header">
+
+                <div>
+
+                    <span class="interest-detail-index">
+                        04
+                    </span>
+
+                    <span class="interest-detail-category">
+                        CREATIVE
+                    </span>
+
+                </div>
+
+                <span class="interest-detail-symbol">
+                    ▶
+                </span>
+
+            </div>
+
+
+            <div class="interest-detail-main">
+
+                <h3>
+                    Content Creation
+                </h3>
+
+                <p>
+                    I enjoy developing ideas, visual concepts,
+                    edits and digital content that can communicate
+                    a story or capture attention.
+                </p>
+
+            </div>
+
+
+            <div class="interest-detail-tags">
+
+                <span>
+                    VIDEO
+                </span>
+
+                <span>
+                    STORYTELLING
+                </span>
+
+                <span>
+                    DESIGN
+                </span>
+
+            </div>
+
+        </article>
+
+
+        <!-- =================================================
+             LEARNING DETAIL
+        ================================================== -->
+
+        <article
+            class="interest-detail-card"
+            data-interest-detail="learning"
+            hidden
+        >
+
+            <div class="interest-detail-header">
+
+                <div>
+
+                    <span class="interest-detail-index">
+                        05
+                    </span>
+
+                    <span class="interest-detail-category">
+                        GROWTH
+                    </span>
+
+                </div>
+
+                <span class="interest-detail-symbol">
+                    +
+                </span>
+
+            </div>
+
+
+            <div class="interest-detail-main">
+
+                <h3>
+                    Learning
+                </h3>
+
+                <p>
+                    I'm interested in continuously learning new
+                    concepts, tools and technologies and applying
+                    them through practical projects.
+                </p>
+
+            </div>
+
+
+            <div class="interest-detail-tags">
+
+                <span>
+                    EXPLORE
+                </span>
+
+                <span>
+                    PRACTICE
+                </span>
+
+                <span>
+                    IMPROVE
+                </span>
+
+            </div>
+
+        </article>
+
+
+        <!-- =================================================
+             WEB DEVELOPMENT DETAIL
+        ================================================== -->
+
+        <article
+            class="interest-detail-card"
+            data-interest-detail="web-development"
+            hidden
+        >
+
+            <div class="interest-detail-header">
+
+                <div>
+
+                    <span class="interest-detail-index">
+                        06
+                    </span>
+
+                    <span class="interest-detail-category">
+                        DEVELOPMENT
+                    </span>
+
+                </div>
+
+                <span class="interest-detail-symbol">
+                    &lt;/&gt;
+                </span>
+
+            </div>
+
+
+            <div class="interest-detail-main">
+
+                <h3>
+                    Web Development
+                </h3>
+
+                <p>
+                    I'm interested in understanding how websites
+                    work from the interface all the way to the
+                    underlying systems and services.
+                </p>
+
+            </div>
+
+
+            <div class="interest-detail-tags">
+
+                <span>
+                    HTML
+                </span>
+
+                <span>
+                    CSS
+                </span>
+
+                <span>
+                    JAVASCRIPT
+                </span>
+
+            </div>
+
+        </article>
+
+
+        <!-- =================================================
+             HACKATHONS DETAIL
+        ================================================== -->
+
+        <article
+            class="interest-detail-card"
+            data-interest-detail="hackathons"
+            hidden
+        >
+
+            <div class="interest-detail-header">
+
+                <div>
+
+                    <span class="interest-detail-index">
+                        07
+                    </span>
+
+                    <span class="interest-detail-category">
+                        COMPETITION
+                    </span>
+
+                </div>
+
+                <span class="interest-detail-symbol">
+                    ⚡
+                </span>
+
+            </div>
+
+
+            <div class="interest-detail-main">
+
+                <h3>
+                    Hackathons
+                </h3>
+
+                <p>
+                    I'm interested in turning ideas into working
+                    prototypes under real-world constraints while
+                    learning through collaboration and experimentation.
+                </p>
+
+            </div>
+
+
+            <div class="interest-detail-tags">
+
+                <span>
+                    IDEATION
+                </span>
+
+                <span>
+                    PROTOTYPING
+                </span>
+
+                <span>
+                    TEAMWORK
+                </span>
+
+            </div>
+
+        </article>
+
+
+        <!-- =================================================
+             BUSINESS PLANNING DETAIL
+        ================================================== -->
+
+        <article
+            class="interest-detail-card"
+            data-interest-detail="business-planning"
+            hidden
+        >
+
+            <div class="interest-detail-header">
+
+                <div>
+
+                    <span class="interest-detail-index">
+                        08
+                    </span>
+
+                    <span class="interest-detail-category">
+                        ENTREPRENEURSHIP
+                    </span>
+
+                </div>
+
+                <span class="interest-detail-symbol">
+                    ↗
+                </span>
+
+            </div>
+
+
+            <div class="interest-detail-main">
+
+                <h3>
+                    Business Planning
+                </h3>
+
+                <p>
+                    I'm interested in understanding how ideas
+                    become products, how businesses are planned
+                    and how technology can support useful solutions.
+                </p>
+
+            </div>
+
+
+            <div class="interest-detail-tags">
+
+                <span>
+                    STRATEGY
+                </span>
+
+                <span>
+                    PRODUCT
+                </span>
+
+                <span>
+                    BUSINESS
+                </span>
+
+            </div>
+
+        </article>
+
+    </div>
+
+
+    <!-- =====================================================
+         INTEREST CONNECTIONS / PHILOSOPHY
+    ====================================================== -->
+
+    <div class="interests-philosophy">
+
+        <div class="philosophy-line"></div>
+
+        <div class="philosophy-content">
+
+            <span class="philosophy-index">
+                05
+            </span>
+
+            <blockquote>
+                “Curiosity keeps the next version of me under construction.”
+            </blockquote>
+
+        </div>
+
+        <div class="philosophy-line"></div>
+
+    </div>
+
+
+    <!-- =====================================================
+         INTEREST SUMMARY
+    ====================================================== -->
+
+    <div class="interests-summary">
+
+        <div class="interest-summary-item">
+
+            <span class="summary-number">
+                08
+            </span>
+
+            <span class="summary-label">
+                AREAS OF INTEREST
+            </span>
+
+        </div>
+
+
+        <div class="interest-summary-item">
+
+            <span class="summary-number">
+                ∞
+            </span>
+
+            <span class="summary-label">
+                POSSIBILITIES
+            </span>
+
+        </div>
+
+
+        <div class="interest-summary-item">
+
+            <span class="summary-number">
+                01
+            </span>
+
+            <span class="summary-label">
+                CONSTANT CURIOSITY
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         NEXT SECTION NAVIGATION
+    ====================================================== -->
+
+    <div class="section-next-navigation">
+
+        <a
+            href="#contact"
+            class="section-next-link"
+            data-target="contact"
+        >
+
+            <span class="next-label">
+                LAST SIDE OF ME
+            </span>
+
+            <span class="next-title">
+                CONTACT
+            </span>
+
+            <span class="next-arrow">
+                ↓
+            </span>
+
+        </a>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     SECTION 7 — CONTACT
+========================================================== -->
+
+<section
+    id="contact"
+    class="page-section contact-section"
+    data-section="contact"
+>
+
+    <!-- =====================================================
+         SECTION HEADER
+    ====================================================== -->
+
+    <div class="section-top">
+
+        <div class="section-number">
+            06
+        </div>
+
+        <div class="section-category">
+            CONTACT / CONNECTION
+        </div>
+
+        <div class="section-status">
+            OPEN TO CONNECT
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         CONTACT INTRODUCTION
+    ====================================================== -->
+
+    <div class="contact-introduction">
+
+        <div class="contact-heading-area">
+
+            <span class="section-eyebrow">
+                HAVE SOMETHING TO SAY?
+            </span>
+
+            <h2 class="contact-title">
+
+                <span>
+                    LET'S
+                </span>
+
+                <span class="contact-title-accent">
+                    TALK.
+                </span>
+
+            </h2>
+
+            <p class="contact-introduction-text">
+                Whether you have a project, collaboration,
+                opportunity or simply want to say hello,
+                feel free to reach out.
+            </p>
+
+        </div>
+
+
+        <!-- =================================================
+             CONTACT STATUS
+        ================================================== -->
+
+        <div class="contact-status-panel">
+
+            <div class="contact-status-indicator"></div>
+
+            <div class="contact-status-copy">
+
+                <span>
+                    CURRENT STATUS
+                </span>
+
+                <strong>
+                    AVAILABLE TO CONNECT
+                </strong>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         CONTACT MAIN LAYOUT
+    ====================================================== -->
+
+    <div class="contact-layout">
+
+
+        <!-- =================================================
+             LEFT — SOCIAL / DIRECT CONTACT
+        ================================================== -->
+
+        <div class="contact-left">
+
+
+            <!-- =============================================
+                 CONTACT PROFILE
+            ============================================== -->
+
+            <div class="contact-profile">
+
+                <div class="contact-profile-image">
+
+                    <!--
+                        Add your B&W portrait here later.
+
+                        Example:
+
+                        <img
+                            src="images/shorya-contact.jpg"
+                            alt="Shorya Jain"
+                        >
+                    -->
+
+                    <div class="contact-profile-placeholder">
+
+                        <span>
+                            SJ
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="contact-profile-information">
+
+                    <span class="contact-profile-label">
+                        SHORYA JAIN
+                    </span>
+
+                    <span class="contact-profile-role">
+                        BCA STUDENT · FREELANCER
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- =============================================
+                 SOCIAL LINKS
+            ============================================== -->
+
+            <div class="contact-social-area">
+
+                <div class="subsection-heading">
+
+                    <span class="subsection-number">
+                        01
+                    </span>
+
+                    <span class="subsection-title">
+                        FIND ME ONLINE
+                    </span>
+
+                </div>
+
+
+                <div class="contact-social-links">
+
+
+                    <!-- EMAIL -->
+
+                    <a
+                        href="mailto:YOUR_EMAIL_HERE"
+                        class="contact-social-link"
+                        data-contact-type="email"
+                    >
+
+                        <span class="contact-social-index">
+                            01
+                        </span>
+
+                        <span class="contact-social-name">
+                            EMAIL
+                        </span>
+
+                        <span class="contact-social-value">
+                            YOUR EMAIL
+                        </span>
+
+                        <span class="contact-social-arrow">
+                            ↗
+                        </span>
+
+                    </a>
+
+
+                    <!-- GITHUB -->
+
+                    <a
+                        href="#"
+                        class="contact-social-link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        data-contact-type="github"
+                    >
+
+                        <span class="contact-social-index">
+                            02
+                        </span>
+
+                        <span class="contact-social-name">
+                            GITHUB
+                        </span>
+
+                        <span class="contact-social-value">
+                            GITHUB PROFILE
+                        </span>
+
+                        <span class="contact-social-arrow">
+                            ↗
+                        </span>
+
+                    </a>
+
+
+                    <!-- INSTAGRAM -->
+
+                    <a
+                        href="#"
+                        class="contact-social-link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        data-contact-type="instagram"
+                    >
+
+                        <span class="contact-social-index">
+                            03
+                        </span>
+
+                        <span class="contact-social-name">
+                            INSTAGRAM
+                        </span>
+
+                        <span class="contact-social-value">
+                            INSTAGRAM PROFILE
+                        </span>
+
+                        <span class="contact-social-arrow">
+                            ↗
+                        </span>
+
+                    </a>
+
+
+                    <!-- LINKEDIN -->
+
+                    <a
+                        href="#"
+                        class="contact-social-link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        data-contact-type="linkedin"
+                    >
+
+                        <span class="contact-social-index">
+                            04
+                        </span>
+
+                        <span class="contact-social-name">
+                            LINKEDIN
+                        </span>
+
+                        <span class="contact-social-value">
+                            LINKEDIN PROFILE
+                        </span>
+
+                        <span class="contact-social-arrow">
+                            ↗
+                        </span>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- =============================================
+                 CONTACT NOTE
+            ============================================== -->
+
+            <div class="contact-note">
+
+                <span class="contact-note-symbol">
+                    +
+                </span>
+
+                <p>
+                    The fastest way to reach me is through the
+                    contact form or email.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             RIGHT — MESSAGE FORM
+        ================================================== -->
+
+        <div class="contact-right">
+
+            <div class="contact-form-wrapper">
+
+
+                <div class="contact-form-header">
+
+                    <span>
+                        SEND A MESSAGE
+                    </span>
+
+                    <span>
+                        FORM / 001
+                    </span>
+
+                </div>
+
+
+                <!-- =========================================
+                     CONTACT FORM
+                ========================================== -->
+
+                <form
+                    id="contact-form"
+                    class="contact-form"
+                    action="#"
+                    method="POST"
+                    novalidate
+                >
+
+
+                    <!-- =====================================
+                         NAME
+                    ====================================== -->
+
+                    <div class="form-field">
+
+                        <div class="form-field-header">
+
+                            <label
+                                for="contact-name"
+                            >
+                                NAME
+                            </label>
+
+                            <span>
+                                01
+                            </span>
+
+                        </div>
+
+
+                        <input
+                            id="contact-name"
+                            name="name"
+                            type="text"
+                            autocomplete="name"
+                            placeholder="ENTER YOUR NAME"
+                            required
+                        >
+
+
+                        <span
+                            class="form-field-line"
+                            aria-hidden="true"
+                        ></span>
+
+
+                        <small
+                            class="form-error"
+                            id="contact-name-error"
+                            aria-live="polite"
+                        ></small>
+
+                    </div>
+
+
+                    <!-- =====================================
+                         EMAIL
+                    ====================================== -->
+
+                    <div class="form-field">
+
+                        <div class="form-field-header">
+
+                            <label
+                                for="contact-email"
+                            >
+                                EMAIL
+                            </label>
+
+                            <span>
+                                02
+                            </span>
+
+                        </div>
+
+
+                        <input
+                            id="contact-email"
+                            name="email"
+                            type="email"
+                            autocomplete="email"
+                            placeholder="ENTER YOUR EMAIL"
+                            required
+                        >
+
+
+                        <span
+                            class="form-field-line"
+                            aria-hidden="true"
+                        ></span>
+
+
+                        <small
+                            class="form-error"
+                            id="contact-email-error"
+                            aria-live="polite"
+                        ></small>
+
+                    </div>
+
+
+                    <!-- =====================================
+                         SUBJECT
+                    ====================================== -->
+
+                    <div class="form-field">
+
+                        <div class="form-field-header">
+
+                            <label
+                                for="contact-subject"
+                            >
+                                SUBJECT
+                            </label>
+
+                            <span>
+                                03
+                            </span>
+
+                        </div>
+
+
+                        <input
+                            id="contact-subject"
+                            name="subject"
+                            type="text"
+                            placeholder="WHAT IS THIS ABOUT?"
+                        >
+
+
+                        <span
+                            class="form-field-line"
+                            aria-hidden="true"
+                        ></span>
+
+
+                        <small
+                            class="form-error"
+                            id="contact-subject-error"
+                            aria-live="polite"
+                        ></small>
+
+                    </div>
+
+
+                    <!-- =====================================
+                         MESSAGE
+                    ====================================== -->
+
+                    <div class="form-field form-field-message">
+
+                        <div class="form-field-header">
+
+                            <label
+                                for="contact-message"
+                            >
+                                MESSAGE
+                            </label>
+
+                            <span>
+                                04
+                            </span>
+
+                        </div>
+
+
+                        <textarea
+                            id="contact-message"
+                            name="message"
+                            rows="8"
+                            placeholder="WRITE YOUR MESSAGE HERE..."
+                            required
+                        ></textarea>
+
+
+                        <div class="message-character-info">
+
+                            <span>
+                                MESSAGE
+                            </span>
+
+                            <span>
+                                <span id="message-character-count">
+                                    0
+                                </span>
+                                / 1000
+                            </span>
+
+                        </div>
+
+
+                        <span
+                            class="form-field-line"
+                            aria-hidden="true"
+                        ></span>
+
+
+                        <small
+                            class="form-error"
+                            id="contact-message-error"
+                            aria-live="polite"
+                        ></small>
+
+                    </div>
+
+
+                    <!-- =====================================
+                         CONSENT
+                    ====================================== -->
+
+                    <div class="form-consent">
+
+                        <label class="consent-label">
+
+                            <input
+                                type="checkbox"
+                                id="contact-consent"
+                                name="consent"
+                                required
+                            >
+
+                            <span class="consent-custom-box"></span>
+
+                            <span class="consent-text">
+                                I confirm that the information
+                                provided is correct.
+                            </span>
+
+                        </label>
+
+
+                        <small
+                            class="form-error"
+                            id="contact-consent-error"
+                            aria-live="polite"
+                        ></small>
+
+                    </div>
+
+
+                    <!-- =====================================
+                         SUBMIT BUTTON
+                    ====================================== -->
+
+                    <button
+                        type="submit"
+                        class="contact-submit-button"
+                        id="contact-submit"
+                    >
+
+                        <span class="submit-default-state">
+
+                            <span>
+                                SEND MESSAGE
+                            </span>
+
+                            <span>
+                                ↗
+                            </span>
+
+                        </span>
+
+
+                        <span
+                            class="submit-loading-state"
+                            aria-hidden="true"
+                        >
+
+                            <span>
+                                SENDING
+                            </span>
+
+                            <span class="submit-loading-dots">
+                                ...
+                            </span>
+
+                        </span>
+
+
+                        <span
+                            class="submit-success-state"
+                            aria-hidden="true"
+                        >
+
+                            <span>
+                                SENT
+                            </span>
+
+                            <span>
+                                ✓
+                            </span>
+
+                        </span>
+
+                    </button>
+
+
+                    <!-- =====================================
+                         FORM STATUS
+                    ====================================== -->
+
+                    <div
+                        id="contact-form-status"
+                        class="contact-form-status"
+                        aria-live="polite"
+                    ></div>
+
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         CONTACT CALL TO ACTION
+    ====================================================== -->
+
+    <div class="contact-cta">
+
+        <div class="contact-cta-line"></div>
+
+
+        <div class="contact-cta-content">
+
+            <span class="contact-cta-label">
+                ONE MESSAGE CAN START SOMETHING
+            </span>
+
+            <h3>
+                YOUR IDEA.
+                <span>MY NEXT PROJECT.</span>
+            </h3>
+
+        </div>
+
+
+        <div class="contact-cta-mark">
+            SJ
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         FINAL NAVIGATION
+    ====================================================== -->
+
+    <div class="contact-final-navigation">
+
+        <a
+            href="#hero"
+            class="back-home-button"
+            data-target="hero"
+        >
+
+            <span>
+                RETURN TO BEGINNING
+            </span>
+
+            <span>
+                ↑
+            </span>
+
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     FINAL FOOTER
+========================================================== -->
+
+<footer
+    id="site-footer"
+    class="site-footer"
+>
+
+
+    <!-- =====================================================
+         FOOTER TOP
+    ====================================================== -->
+
+    <div class="footer-top">
+
+        <div class="footer-brand-large">
+            SHORYA
+            <span>JAIN</span>
+        </div>
+
+
+        <div class="footer-description">
+
+            <p>
+                BCA student, freelancer, creator and developer
+                exploring technology, creativity and new ideas.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         FOOTER NAVIGATION
+    ====================================================== -->
+
+    <div class="footer-navigation">
+
+        <div class="footer-navigation-column">
+
+            <span class="footer-column-title">
+                EXPLORE
+            </span>
+
+            <a
+                href="#hero"
+                data-target="hero"
+            >
+                HOME
+            </a>
+
+            <a
+                href="#bca"
+                data-target="bca"
+            >
+                BCA
+            </a>
+
+            <a
+                href="#freelancing"
+                data-target="freelancing"
+            >
+                FREELANCING
+            </a>
+
+            <a
+                href="#projects"
+                data-target="projects"
+            >
+                PROJECTS
+            </a>
+
+        </div>
+
+
+        <div class="footer-navigation-column">
+
+            <span class="footer-column-title">
+                DISCOVER
+            </span>
+
+            <a
+                href="#achievements"
+                data-target="achievements"
+            >
+                ACHIEVEMENTS
+            </a>
+
+            <a
+                href="#interests"
+                data-target="interests"
+            >
+                INTERESTS
+            </a>
+
+            <a
+                href="#contact"
+                data-target="contact"
+            >
+                CONTACT
+            </a>
+
+        </div>
+
+
+        <div class="footer-navigation-column">
+
+            <span class="footer-column-title">
+                CONNECT
+            </span>
+
+            <a
+                href="mailto:YOUR_EMAIL_HERE"
+            >
+                EMAIL
+            </a>
+
+            <a
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                GITHUB
+            </a>
+
+            <a
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                INSTAGRAM
+            </a>
+
+            <a
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                LINKEDIN
+            </a>
+
+        </div>
+
+
+        <div class="footer-navigation-column footer-navigation-column-status">
+
+            <span class="footer-column-title">
+                CURRENTLY
+            </span>
+
+            <span>
+                BCA YEAR 1
+            </span>
+
+            <span>
+                BUILDING
+            </span>
+
+            <span>
+                LEARNING
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         FOOTER BOTTOM
+    ====================================================== -->
+
+    <div class="footer-bottom">
+
+        <div class="footer-bottom-left">
+
+            <span>
+                © 2026 SHORYA JAIN
+            </span>
+
+            <span>
+                ALL RIGHTS RESERVED
+            </span>
+
+        </div>
+
+
+        <div class="footer-bottom-center">
+
+            <span class="footer-location">
+                INDIA
+            </span>
+
+            <span class="footer-separator">
+                /
+            </span>
+
+            <span>
+                DELHI NCR
+            </span>
+
+        </div>
+
+
+        <div class="footer-bottom-right">
+
+            <button
+                type="button"
+                class="footer-top-button"
+                data-target="hero"
+            >
+
+                <span>
+                    BACK TO TOP
+                </span>
+
+                <span>
+                    ↑
+                </span>
+
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         FOOTER SIGNATURE
+    ====================================================== -->
+
+    <div class="footer-signature">
+
+        <span>
+            DESIGNED & BUILT BY SHORYA JAIN
+        </span>
+
+        <span>
+            2026
+        </span>
+
+    </div>
+
+</footer>
